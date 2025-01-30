@@ -1,0 +1,435 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[     15535,        427]
+NotebookOptionsPosition[     14585,        405]
+NotebookOutlinePosition[     14987,        421]
+CellTagsIndexPosition[     14944,        418]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[StyleBox["Exercise 5", "Title"]], "Text",
+ CellChangeTimes->{{3.943496862700392*^9, 3.94349686559111*^9}, 
+   3.943502781471184*^9, 
+   3.943503928370884*^9},ExpressionUUID->"4ff2b955-fd21-a943-9f84-\
+c9744f847e9d"],
+
+Cell[TextData[StyleBox["task a)", "Subsection"]], "Text",
+ CellChangeTimes->{{3.943496872670124*^9, 
+  3.94349687438883*^9}},ExpressionUUID->"206f29e7-abf7-ae45-925c-\
+7b4464772015"],
+
+Cell[TextData[{
+ "Make a table similar to the lecture: \n\nn\t\tN(\[Epsilon])\t\t\t\[Epsilon]\
+\n######################\n0\t\t1\t\t\t1\n1\t\t4\t\t\t1/3\n2\t\t16\t\t\t1/9\n\n\
+Box-Counting dimension is given by: \n\nD = ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       UnderscriptBox["lim", 
+        RowBox[{"\[Epsilon]", "\[Rule]", "\[Infinity]"}], LimitsPositioning -> 
+        True], TraditionalForm], "errors" -> {}, "input" -> 
+     "\\lim_{\\epsilon\\to\\infty}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "74318381-5e10-e14c-bc0a-a492f4d022d4"],
+ " ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       FractionBox[
+        RowBox[{
+          StyleBox["l", "TI"], 
+          StyleBox["n", "TI"], 
+          RowBox[{"(", 
+            RowBox[{
+              StyleBox["N", "TI"], "(", "\[Epsilon]", ")"}], ")"}]}], 
+        RowBox[{
+          StyleBox["l", "TI"], 
+          StyleBox["n", "TI"], 
+          RowBox[{"(", 
+            RowBox[{"1", "/", "\[Epsilon]"}], ")"}]}]], TraditionalForm], 
+     "errors" -> {}, "input" -> 
+     "\\frac{ ln(N(\\epsilon)) }{ln(1/ \\epsilon)}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "b0c0a081-a2e4-8740-a543-787361f6933f"],
+ "  =  ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       FractionBox[
+        RowBox[{
+          StyleBox["l", "TI"], 
+          StyleBox["n", "TI"], 
+          RowBox[{"(", 
+            SuperscriptBox["4", 
+             StyleBox["n", "TI"]], ")"}]}], 
+        RowBox[{
+          StyleBox["l", "TI"], 
+          StyleBox["n", "TI"], 
+          RowBox[{"(", 
+            SuperscriptBox["3", 
+             StyleBox["n", "TI"]], ")"}]}]], TraditionalForm], "errors" -> {},
+      "input" -> "\\frac{ln(4^n)}{ln(3^n)}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "3dc80c5e-5e94-4845-9ce9-bc3edc6c06d1"],
+ " = ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       FractionBox[
+        RowBox[{
+          StyleBox["n", "TI"], "*", 
+          StyleBox["l", "TI"], 
+          StyleBox["n", "TI"], 
+          RowBox[{"(", "4", ")"}]}], 
+        RowBox[{
+          StyleBox["n", "TI"], "*", 
+          StyleBox["l", "TI"], 
+          StyleBox["n", "TI"], 
+          RowBox[{"(", "3", ")"}]}]], TraditionalForm], "errors" -> {}, 
+     "input" -> "\\frac{n*ln(4)}{n*ln(3)}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "856dae66-025f-e249-bf32-4d34400f5ef8"],
+ " = ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       FractionBox[
+        RowBox[{
+          StyleBox["l", "TI"], 
+          StyleBox["n", "TI"], 
+          RowBox[{"(", "4", ")"}]}], 
+        RowBox[{
+          StyleBox["l", "TI"], 
+          StyleBox["n", "TI"], 
+          RowBox[{"(", "3", ")"}]}]], TraditionalForm], "errors" -> {}, 
+     "input" -> "\\frac{ln(4)}{ln(3)}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "d8044173-e542-1a43-a3eb-b8ba44d3a99e"],
+ "\n"
+}], "Text",
+ CellChangeTimes->{{3.9434969612550297`*^9, 3.9434970372210884`*^9}, {
+   3.9434972283852215`*^9, 3.9434973161235466`*^9}, {3.943497451067917*^9, 
+   3.9434974555818996`*^9}, {3.9434975921141224`*^9, 
+   3.9434975983715324`*^9}, {3.943497677667013*^9, 3.9434977237604046`*^9}, 
+   3.943497982380554*^9},ExpressionUUID->"a8206a47-c1b8-ab43-a5e1-\
+ea6886241854"],
+
+Cell[TextData[StyleBox["task b)", "Subsection"]], "Text",
+ CellChangeTimes->{{3.943498004262554*^9, 
+  3.9434980051804924`*^9}},ExpressionUUID->"bbc93a31-c005-1a40-850e-\
+58fe1261b5e8"],
+
+Cell[TextData[{
+ "We have ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       SubscriptBox["\[Lambda]", 
+        StyleBox["a", "TI"]], TraditionalForm], "errors" -> {}, "input" -> 
+     "\\lambda_a", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "4b117cb3-20a7-624b-960c-97a0d20451f2"],
+ " = 1/4, ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       SubscriptBox["\[Lambda]", 
+        StyleBox["b", "TI"]], TraditionalForm], "errors" -> {}, "input" -> 
+     "\\lambda_b", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "69506b14-192a-7249-b643-21ca1766aac6"],
+ " = 1/2, and for each \[Epsilon] we have ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["N", "TI"], 
+          RowBox[{
+            StyleBox["b", "TI"], 
+            StyleBox["o", "TI"], 
+            StyleBox["x", "TI"]}]], 
+         RowBox[{"(", "\[Epsilon]", ")"}], "\[LongEqual]", "4*", 
+         SubscriptBox[
+          StyleBox["N", "TI"], 
+          StyleBox["a", "TI"]], 
+         RowBox[{"(", "\[Epsilon]", ")"}], "+", "1*", 
+         SubscriptBox[
+          StyleBox["N", "TI"], 
+          StyleBox["b", "TI"]], 
+         RowBox[{"(", "\[Epsilon]", ")"}]}], TraditionalForm], "errors" -> {},
+      "input" -> "N_{box}(\\epsilon) =4*N_a(\\epsilon)+1*N_b(\\epsilon)", 
+     "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "d86f1e4c-c57f-734e-a998-3ff15aeee4ae"],
+ " \n\nFrom self similarity we have: \n",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["N", "TI"], 
+          RowBox[{
+            StyleBox["b", "TI"], 
+            StyleBox["o", "TI"], 
+            StyleBox["x", "TI"]}]], 
+         RowBox[{"(", 
+           RowBox[{"\[Epsilon]", "/", 
+             SubscriptBox["\[Lambda]", 
+              StyleBox["a", "TI"]]}], ")"}], "\[LongEqual]", 
+         SubscriptBox[
+          StyleBox["N", "TI"], 
+          StyleBox["a", "TI"]], 
+         RowBox[{"(", "\[Epsilon]", ")"}]}], TraditionalForm], "errors" -> {},
+      "input" -> "N_{box}(\\epsilon/\\lambda_a)=N_a(\\epsilon)", "state" -> 
+     "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "1275bb42-4fd4-cb4b-8578-6d500f7e737c"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["N", "TI"], 
+          RowBox[{
+            StyleBox["b", "TI"], 
+            StyleBox["o", "TI"], 
+            StyleBox["x", "TI"]}]], 
+         RowBox[{"(", 
+           RowBox[{"\[Epsilon]", "/", 
+             SubscriptBox["\[Lambda]", 
+              StyleBox["b", "TI"]]}], ")"}], "\[LongEqual]", 
+         SubscriptBox[
+          StyleBox["N", "TI"], 
+          StyleBox["b", "TI"]], 
+         RowBox[{"(", "\[Epsilon]", ")"}]}], TraditionalForm], "errors" -> {},
+      "input" -> "N_{box}(\\epsilon/\\lambda_b)=N_b(\\epsilon)", "state" -> 
+     "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "70b72456-651b-de4d-b070-6a785277d7da"],
+ "\n\nD0 is defined from:  ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SubscriptBox[
+          StyleBox["N", "TI"], 
+          RowBox[{
+            StyleBox["b", "TI"], 
+            StyleBox["o", "TI"], 
+            StyleBox["x", "TI"]}]], 
+         RowBox[{"(", "\[Epsilon]", ")"}], "\[LongEqual]", 
+         StyleBox["A", "TI"], 
+         SuperscriptBox["\[Epsilon]", 
+          RowBox[{"-", 
+            SubscriptBox[
+             StyleBox["D", "TI"], "0"]}]]}], TraditionalForm], "errors" -> {},
+      "input" -> "N_{box}(\\epsilon) = A\\epsilon^{-D_0", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "65828a38-535a-da4c-a11a-9740dd390253"],
+ " \n\nPutting everything together we get:\n",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         StyleBox["A", "TI"], 
+         SuperscriptBox["\[Epsilon]", 
+          RowBox[{"-", 
+            SubscriptBox[
+             StyleBox["D", "TI"], "0"]}]]}], TraditionalForm], "errors" -> {},
+      "input" -> "A\\epsilon^{-D_0}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "5e677194-605c-c84a-bd5b-6415a220b3bd"],
+ " = ",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{"4*", 
+         StyleBox["A", "TI"], 
+         SuperscriptBox[
+          RowBox[{"(", 
+            RowBox[{"\[Epsilon]", "/", 
+              SubscriptBox["\[Lambda]", 
+               StyleBox["a", "TI"]]}], ")"}], 
+          RowBox[{"-", 
+            SubscriptBox[
+             StyleBox["D", "TI"], "0"]}]], "+", 
+         StyleBox["A", "TI"], 
+         SuperscriptBox[
+          RowBox[{"(", 
+            RowBox[{"\[Epsilon]", "/", 
+              SubscriptBox["\[Lambda]", 
+               StyleBox["b", "TI"]]}], ")"}], 
+          RowBox[{"-", 
+            SubscriptBox[
+             StyleBox["D", "TI"], "0"]}]]}], TraditionalForm], "errors" -> {},
+      "input" -> 
+     "4*A(\\epsilon/\\lambda_a)^{-D_0}+A(\\epsilon/\\lambda_b)^{-D_0}", 
+     "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "8ae743a4-40f8-8d43-8174-9a2906b7ab5c"],
+ " \n\t=>\n",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{
+         SuperscriptBox["\[Epsilon]", 
+          RowBox[{"-", 
+            SubscriptBox[
+             StyleBox["D", "TI"], "0"]}]], "\[LongEqual]", "4*", 
+         SuperscriptBox[
+          RowBox[{"(", 
+            RowBox[{"\[Epsilon]", "/", 
+              SubscriptBox["\[Lambda]", 
+               StyleBox["a", "TI"]]}], ")"}], 
+          RowBox[{"-", 
+            SubscriptBox[
+             StyleBox["D", "TI"], "0"]}]], "+", 
+         SuperscriptBox[
+          RowBox[{"(", 
+            RowBox[{"\[Epsilon]", "/", 
+              SubscriptBox["\[Lambda]", 
+               StyleBox["b", "TI"]]}], ")"}], 
+          RowBox[{"-", 
+            SubscriptBox[
+             StyleBox["D", "TI"], "0"]}]]}], TraditionalForm], "errors" -> {},
+      "input" -> 
+     "\\epsilon^{-D_0} = 4*(\\epsilon/\\lambda_a)^{-D_0}+ \
+(\\epsilon/\\lambda_b)^{-D_0}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "898a61f6-4f55-c046-941b-104281ff208f"],
+ "\n\t=>\n",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{"1", "\[LongEqual]", "4*", 
+         SuperscriptBox[
+          RowBox[{"(", 
+            RowBox[{"1", "/", 
+              SubscriptBox["\[Lambda]", 
+               StyleBox["a", "TI"]]}], ")"}], 
+          RowBox[{"-", 
+            SubscriptBox[
+             StyleBox["D", "TI"], "0"]}]], "+", 
+         SuperscriptBox[
+          RowBox[{"(", 
+            RowBox[{"1", "/", 
+              SubscriptBox["\[Lambda]", 
+               StyleBox["b", "TI"]]}], ")"}], 
+          RowBox[{"-", 
+            SubscriptBox[
+             StyleBox["D", "TI"], "0"]}]]}], TraditionalForm], "errors" -> {},
+      "input" -> "1= 4*(1/\\lambda_a)^{-D_0}+ (1/\\lambda_b)^{-D_0}", "state" -> 
+     "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "5a6d97a9-fe9c-5e4c-824c-0033a9280237"],
+ "\n\t=>\n",
+ Cell[BoxData[
+  FormBox[
+   TemplateBox[<|"boxes" -> FormBox[
+       RowBox[{"1", "\[LongEqual]", "4*", 
+         SubsuperscriptBox["\[Lambda]", 
+          StyleBox["a", "TI"], 
+          SubscriptBox[
+           StyleBox["D", "TI"], "0"]], "+", 
+         SubsuperscriptBox["\[Lambda]", 
+          StyleBox["b", "TI"], 
+          SubscriptBox[
+           StyleBox["D", "TI"], "0"]]}], TraditionalForm], "errors" -> {}, 
+     "input" -> "1= 4*\\lambda_a^{D_0}+ \\lambda_b^{D_0}", "state" -> "Boxes"|>,
+    "TeXAssistantTemplate"], TraditionalForm]],ExpressionUUID->
+  "91c0804d-f945-8943-919d-c0a2aef6ea24"]
+}], "Text",
+ CellChangeTimes->{{3.943498483551792*^9, 3.9434987335425797`*^9}, {
+   3.943498955012535*^9, 3.943498957008526*^9}, {3.9434990380741997`*^9, 
+   3.9434991212307987`*^9}, 3.943499158561407*^9, {3.943499208659321*^9, 
+   3.9434992375302887`*^9}, {3.943500949905533*^9, 3.943500983521641*^9}, {
+   3.9435010946861763`*^9, 3.9435011214515*^9}, {3.94350125266193*^9, 
+   3.943501275588238*^9}, {3.943501340697193*^9, 3.9435013991458874`*^9}, {
+   3.943501846607193*^9, 3.9435018688077545`*^9}, {3.9435022984806366`*^9, 
+   3.9435023062962494`*^9}, {3.9435055142681427`*^9, 
+   3.943505518956936*^9}},ExpressionUUID->"fbc86a4a-220f-784d-8393-\
+d28dc8490b9b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"\[Lambda]a", " ", "=", " ", 
+   RowBox[{"1", "/", "4"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[Lambda]b", " ", "=", " ", 
+   RowBox[{"1", "/", "2"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"sol", " ", "=", " ", 
+  RowBox[{"Solve", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"4", 
+       RowBox[{"\[Lambda]a", "^", "D0"}]}], "+", 
+      RowBox[{"\[Lambda]b", "^", "D0"}]}], " ", "==", "1"}], ",", "D0", ",", 
+    "Reals"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.943501441578268*^9, 3.943501505841631*^9}, {
+  3.943501568372284*^9, 3.9435015693948803`*^9}, {3.943501853919449*^9, 
+  3.943501854942501*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"e7ae4411-44a3-b04b-ba2d-e5f640a3222c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{"D0", "\[Rule]", 
+    FractionBox[
+     RowBox[{
+      RowBox[{"-", 
+       RowBox[{"Log", "[", "2", "]"}]}], "+", 
+      RowBox[{"Log", "[", 
+       RowBox[{"1", "+", 
+        SqrtBox["17"]}], "]"}]}], 
+     RowBox[{"Log", "[", "2", "]"}]]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{{3.943501491361641*^9, 3.9435015095037174`*^9}, 
+   3.9435018555151577`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"23c45114-af67-914e-b33f-ff1ded41160e"]
+}, Open  ]]
+},
+WindowSize->{949, 497},
+WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"3ed4670c-a680-5d47-9c9d-f0c0680449f9"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[554, 20, 229, 4, 71, "Text",ExpressionUUID->"4ff2b955-fd21-a943-9f84-c9744f847e9d"],
+Cell[786, 26, 182, 3, 40, "Text",ExpressionUUID->"206f29e7-abf7-ae45-925c-7b4464772015"],
+Cell[971, 31, 3492, 94, 292, "Text",ExpressionUUID->"a8206a47-c1b8-ab43-a5e1-ea6886241854"],
+Cell[4466, 127, 185, 3, 40, "Text",ExpressionUUID->"bbc93a31-c005-1a40-850e-58fe1261b5e8"],
+Cell[4654, 132, 8630, 231, 347, "Text",ExpressionUUID->"fbc86a4a-220f-784d-8393-d28dc8490b9b"],
+Cell[CellGroupData[{
+Cell[13309, 367, 759, 19, 66, "Input",ExpressionUUID->"e7ae4411-44a3-b04b-ba2d-e5f640a3222c"],
+Cell[14071, 388, 498, 14, 54, "Output",ExpressionUUID->"23c45114-af67-914e-b33f-ff1ded41160e"]
+}, Open  ]]
+}
+]
+*)
+
