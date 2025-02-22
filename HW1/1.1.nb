@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    604391,      11369]
-NotebookOptionsPosition[    599668,      11298]
-NotebookOutlinePosition[    600096,      11315]
-CellTagsIndexPosition[    600053,      11312]
+NotebookDataLength[    583716,      10926]
+NotebookOptionsPosition[    581165,      10876]
+NotebookOutlinePosition[    581608,      10893]
+CellTagsIndexPosition[    581565,      10890]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26,8 +26,7 @@ Cell[BoxData[{
    RowBox[{"ClearAll", "[", "\"\<Global`*\>\"", "]"}], ";"}], "Code"], "\n", 
  StyleBox[
   RowBox[{
-   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], 
-  "Code"], "\[IndentingNewLine]", 
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "Code"], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"f", "[", 
    RowBox[{"x_", ",", "r_"}], "]"}], ":=", 
@@ -62,15 +61,13 @@ Cell[BoxData[{
         RowBox[{"Exp", "[", 
          RowBox[{"80", "*", 
           RowBox[{"(", 
-           RowBox[{"1", "-", "x"}], ")"}]}], "]"}]}], ")"}]}], 
-     ")"}]}]}]}], "\n", 
+           RowBox[{"1", "-", "x"}], ")"}]}], "]"}]}], ")"}]}], ")"}]}]}]}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"f2", "[", 
     RowBox[{"x_", ",", "r_"}], "]"}], " ", "=", " ", 
    RowBox[{"r", "*", 
-    RowBox[{"x", "^", "4"}]}]}], 
-  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+    RowBox[{"x", "^", "4"}]}]}], "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"Manipulate", "[", 
    RowBox[{
@@ -160,9 +157,8 @@ Cell[BoxData[{
    3.9405023738811207`*^9}, {3.940504235728319*^9, 3.940504239992134*^9}, {
    3.940505711203367*^9, 3.940505723531063*^9}, {3.940507852564972*^9, 
    3.9405078528628826`*^9}, {3.9410871953839607`*^9, 3.941087200312113*^9}, 
-   3.9410876150900555`*^9, {3.9410930789247627`*^9, 
-   3.9410930797007427`*^9}},ExpressionUUID->"4b7e8e77-9b29-c646-bf56-\
-d9a8b6affd89"],
+   3.9410876150900555`*^9, {3.9410930789247627`*^9, 3.9410930797007427`*^9}},
+ CellLabel->"In[57]:=",ExpressionUUID->"4b7e8e77-9b29-c646-bf56-d9a8b6affd89"],
 
 Cell[BoxData[
  RowBox[{
@@ -198,8 +194,9 @@ Cell[BoxData[
    3.9405021402225914`*^9, 3.9405042435763035`*^9, 3.940504326996996*^9, {
    3.940505713177435*^9, 3.940505724903387*^9}, {3.9405078466601887`*^9, 
    3.9405078539539547`*^9}, 3.9405935925713463`*^9, 3.9405980965996265`*^9, 
-   3.940598850117964*^9, 3.940638996904167*^9, 3.9410871853272457`*^9},
- CellLabel->"Out[4]=",ExpressionUUID->"36f55318-bc78-da4e-8c4d-22512cef8537"],
+   3.940598850117964*^9, 3.940638996904167*^9, 3.9410871853272457`*^9, 
+   3.947483420588915*^9, 3.9474836046286087`*^9},
+ CellLabel->"Out[60]=",ExpressionUUID->"dccef56f-2fbb-524a-aa46-66ef9fd3b71a"],
 
 Cell[BoxData[
  RowBox[{"r", " ", 
@@ -227,19 +224,20 @@ Cell[BoxData[
    3.9405021402225914`*^9, 3.9405042435763035`*^9, 3.940504326996996*^9, {
    3.940505713177435*^9, 3.940505724903387*^9}, {3.9405078466601887`*^9, 
    3.9405078539539547`*^9}, 3.9405935925713463`*^9, 3.9405980965996265`*^9, 
-   3.940598850117964*^9, 3.940638996904167*^9, 3.941087185344576*^9},
- CellLabel->"Out[5]=",ExpressionUUID->"91e991d6-a908-c34e-a5dd-ad7d5a278fcd"],
+   3.940598850117964*^9, 3.940638996904167*^9, 3.9410871853272457`*^9, 
+   3.947483420588915*^9, 3.9474836046483803`*^9},
+ CellLabel->"Out[61]=",ExpressionUUID->"04edcc1d-b790-e645-bc07-950d5866e4fd"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`r$$ = 0.744, Typeset`show$$ = True, 
+   DynamicModuleBox[{$CellContext`r$$ = 0.124, Typeset`show$$ = True, 
     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
     Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
     "\"untitled\"", Typeset`specs$$ = {{
       Hold[$CellContext`r$$], 0, 1, ControlType -> Manipulator}}, 
     Typeset`size$$ = {
-    505.70355577173177`, {60.46305785646452, 35.19766329679098}}, 
+    251.43416703738706`, {82.22540728208436, 86.34799015533939}}, 
     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True, 
     Typeset`keyframeActionsQ$$ = False, Typeset`keyframeList$$ = {}}, 
     DynamicBox[Manipulate`ManipulateBoxes[
@@ -263,7 +261,8 @@ Cell[BoxData[
 $CellContext`f1[$CellContext`x], $CellContext`x, Reals]], PlotStyle -> Red]], 
       "Specifications" :> {{$CellContext`r$$, 0, 1}}, "Options" :> {}, 
       "DefaultOptions" :> {}],
-     ImageSizeCache->{839.048, {70.84074636086447, 75.99948651114104}},
+     ImageSizeCache->{
+      442.753990551181, {105.49698633050892`, 109.61956920376394`}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -297,346 +296,27 @@ $CellContext`f1[$CellContext`x], $CellContext`x, Reals]], PlotStyle -> Red]],
    3.9405021402225914`*^9, 3.9405042435763035`*^9, 3.940504326996996*^9, {
    3.940505713177435*^9, 3.940505724903387*^9}, {3.9405078466601887`*^9, 
    3.9405078539539547`*^9}, 3.9405935925713463`*^9, 3.9405980965996265`*^9, 
-   3.940598850117964*^9, 3.940638996904167*^9, 3.9410871854130154`*^9},
- CellLabel->"Out[6]=",ExpressionUUID->"1a19e54f-e5d6-ce4a-bd6c-a71607e14382"],
-
-Cell[BoxData[
- TemplateBox[{
-  "NSolve", "nsmet", 
-   "\"This system cannot be solved with the methods available to NSolve.\"", 
-   2, 19, 2, 32462147228807333336, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.941259253176361*^9},
- CellLabel->"",ExpressionUUID->"bada3820-1900-7d43-bb65-cd912394c209"],
-
-Cell[BoxData[
- TemplateBox[{
-  "ReplaceAll", "reps", 
-   "\"\\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"NSolve\\\", \\\"[\\\", \
-RowBox[{RowBox[{RowBox[{\\\"f2\\\", \\\"[\\\", RowBox[{\\\"x\\\", \\\",\\\", \
-\\\"0.744`\\\"}], \\\"]\\\"}], \\\"\[Equal]\\\", RowBox[{\\\"f1\\\", \
-\\\"[\\\", \\\"x\\\", \\\"]\\\"}]}], \\\",\\\", \\\"x\\\", \\\",\\\", \
-TemplateBox[List[], \\\"Reals\\\"]}], \\\"]\\\"}], \\\"}\\\"}]\\) is neither \
-a list of replacement rules nor a valid dispatch table, and so cannot be used \
-for replacing.\"", 2, 19, 3, 32462147228807333336, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.941259253286396*^9},
- CellLabel->"",ExpressionUUID->"aded3bcd-8f68-9143-ba35-1520c1c87e6d"],
-
-Cell[BoxData[
- TemplateBox[{
-  "ReplaceAll", "reps", 
-   "\"\\!\\(\\*RowBox[{\\\"{\\\", \\\"False\\\", \\\"}\\\"}]\\) is neither a \
-list of replacement rules nor a valid dispatch table, and so cannot be used \
-for replacing.\"", 2, 19, 4, 32462147228807333336, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.941259253349926*^9},
- CellLabel->"",ExpressionUUID->"316200d2-ea32-2449-b173-8bd9b967dac1"],
-
-Cell[BoxData[
- TemplateBox[{
-  "ReplaceAll", "reps", 
-   "\"\\!\\(\\*RowBox[{\\\"{\\\", TagBox[RowBox[{\\\"NSolve\\\", \\\"[\\\", \
-RowBox[{RowBox[{RowBox[{\\\"f2\\\", \\\"[\\\", RowBox[{\\\"x\\\", \\\",\\\", \
-\\\"0.744`\\\"}], \\\"]\\\"}], \\\"\[Equal]\\\", RowBox[{\\\"f1\\\", \
-\\\"[\\\", \\\"x\\\", \\\"]\\\"}]}], \\\",\\\", \\\"x\\\", \\\",\\\", \
-TemplateBox[List[], \\\"Reals\\\"]}], \\\"]\\\"}], \
-Function[Annotation[Slot[1], \\\"Charting`Private`Tag#2\\\"]]], \
-\\\"}\\\"}]\\) is neither a list of replacement rules nor a valid dispatch \
-table, and so cannot be used for replacing.\"", 2, 19, 5, 
-   32462147228807333336, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9412592533655605`*^9},
- CellLabel->"",ExpressionUUID->"246e020b-04b3-6747-94b3-875885c96a25"],
-
-Cell[BoxData[
- TemplateBox[{
-  "General", "stop", 
-   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"ReplaceAll\\\", \
-\\\"::\\\", \\\"reps\\\"}], \\\"MessageName\\\"]\\) will be suppressed during \
-this calculation.\"", 2, 19, 6, 32462147228807333336, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.941259253387924*^9},
- CellLabel->"",ExpressionUUID->"edf2131f-b43f-b94e-bcfa-9765b3acec77"],
-
-Cell[BoxData[
- TemplateBox[{
-  "ListPlot", "lpn", 
-   "\"\\!\\(\\*RowBox[{TagBox[RowBox[{\\\"{\\\", RowBox[{\\\"x\\\", \
-\\\",\\\", RowBox[{\\\"f2\\\", \\\"[\\\", RowBox[{\\\"x\\\", \\\",\\\", \
-\\\"0.744`\\\"}], \\\"]\\\"}]}], \\\"}\\\"}], Function[Annotation[Slot[1], \\\
-\"Charting`Private`Tag#1\\\"]]], \\\"/.\\\", \\\"\[VeryThinSpace]\\\", \
-TagBox[RowBox[{\\\"NSolve\\\", \\\"[\\\", RowBox[{RowBox[{RowBox[{\\\"f2\\\", \
-\\\"[\\\", RowBox[{\\\"x\\\", \\\",\\\", \\\"0.744`\\\"}], \\\"]\\\"}], \\\"\
-\[Equal]\\\", RowBox[{\\\"f1\\\", \\\"[\\\", \\\"x\\\", \\\"]\\\"}]}], \
-\\\",\\\", \\\"x\\\", \\\",\\\", TemplateBox[List[], \\\"Reals\\\"]}], \
-\\\"]\\\"}], Function[Annotation[Slot[1], \\\"Charting`Private`Tag#2\\\"]]]}]\
-\\) is not a list of numbers or pairs of numbers.\"", 2, 19, 7, 
-   32462147228807333336, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.941259253464018*^9},
- CellLabel->"",ExpressionUUID->"c7dd2c79-e13e-9549-8a8c-622f48451119"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Show", "gcomb", 
-   "\"Could not combine the graphics objects in \
-\\!\\(\\*RowBox[{\\\"Show\\\", \\\"[\\\", RowBox[{GraphicsBox[List[List[], \
-List[]], List[Rule[DisplayFunction, Identity], Rule[DisplayFunction, \
-Identity], Rule[Ticks, List[Automatic, Automatic]], Rule[AxesOrigin, List[0, \
-0]], Rule[FrameTicks, List[List[Automatic, Automatic], List[Automatic, \
-Automatic]]], Rule[GridLines, List[None, None]], Rule[DisplayFunction, \
-Identity], Rule[PlotRangePadding, List[List[Scaled[0.02`], Scaled[0.02`]], \
-List[0, 0]]], Rule[PlotRangeClipping, True], Rule[ImagePadding, All], \
-Rule[DisplayFunction, Identity], Rule[AspectRatio, NCache[Power[GoldenRatio, \
--1], 0.6180339887498948`]], Rule[Axes, List[True, True]], Rule[AxesLabel, \
-List[None, None]], Rule[AxesOrigin, List[0, 0]], RuleDelayed[DisplayFunction, \
-Identity], Rule[Frame, List[List[False, False], List[False, False]]], \
-Rule[FrameLabel, List[List[None, None], List[None, None]]], Rule[FrameTicks, \
-List[List[Automatic, Automatic], List[Automatic, Automatic]]], \
-Rule[GridLines, List[None, None]], Rule[GridLinesStyle, \
-Directive[GrayLevel[0.5`, 0.4`]]], Rule[Method, \
-List[Rule[\\\"DefaultBoundaryStyle\\\", Automatic], \
-Rule[\\\"DefaultGraphicsInteraction\\\", List[Rule[Skeleton[2]], \
-Rule[Skeleton[2]], Rule[Skeleton[2]]]], Rule[\\\"DefaultMeshStyle\\\", \
-AbsolutePointSize[6]], Rule[\\\"ScalingFunctions\\\", None], \
-Rule[\\\"CoordinatesToolOptions\\\", List[Rule[Skeleton[2]], \
-Rule[Skeleton[2]]]]]], Rule[PlotRange, List[List[-2, 2], List[0.`, 1.`]]], \
-Rule[PlotRangeClipping, True], Rule[PlotRangePadding, \
-List[List[Scaled[0.02`], Scaled[0.02`]], List[Automatic, Automatic]]], \
-Rule[Ticks, List[Automatic, Automatic]]]], \\\",\\\", \
-RowBox[{\\\"ListPlot\\\", \\\"[\\\", RowBox[{RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"x\\\", \\\",\\\", RowBox[{\\\"f2\\\", \\\"[\\\", \
-RowBox[{\\\"x\\\", \\\",\\\", \\\"0.744`\\\"}], \\\"]\\\"}]}], \\\"}\\\"}], \
-\\\"/.\\\", \\\"\[VeryThinSpace]\\\", RowBox[{\\\"NSolve\\\", \\\"[\\\", \
-RowBox[{RowBox[{RowBox[{\\\"f2\\\", \\\"[\\\", RowBox[{\\\"x\\\", \\\",\\\", \
-\\\"0.744`\\\"}], \\\"]\\\"}], \\\"\[Equal]\\\", RowBox[{\\\"f1\\\", \
-\\\"[\\\", \\\"x\\\", \\\"]\\\"}]}], \\\",\\\", \\\"x\\\", \\\",\\\", \
-TemplateBox[List[], \\\"Reals\\\"]}], \\\"]\\\"}]}], \\\",\\\", \
-RowBox[{\\\"PlotStyle\\\", \\\"\[Rule]\\\", \
-TemplateBox[Association[Rule[\\\"color\\\", RGBColor[1, 0, 0]]], \
-\\\"RGBColorSwatchTemplate\\\"]}]}], \\\"]\\\"}]}], \\\"]\\\"}]\\).\"", 2, 19,
-    8, 32462147228807333336, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.941259253792948*^9},
- CellLabel->"",ExpressionUUID->"9a44a846-9db9-6a42-9a47-50469393c0ce"],
-
-Cell[BoxData[
- TemplateBox[{
-  "Show", "gcomb", 
-   "\"Could not combine the graphics objects in \
-\\!\\(\\*RowBox[{\\\"Show\\\", \\\"[\\\", RowBox[{GraphicsBox[List[List[], \
-List[]], List[Rule[DisplayFunction, Identity], Rule[DisplayFunction, \
-Identity], Rule[Ticks, List[Automatic, Automatic]], Rule[AxesOrigin, List[0, \
-0]], Rule[FrameTicks, List[List[Automatic, Automatic], List[Automatic, \
-Automatic]]], Rule[GridLines, List[None, None]], Rule[DisplayFunction, \
-Identity], Rule[PlotRangePadding, List[List[Scaled[0.02`], Scaled[0.02`]], \
-List[0, 0]]], Rule[PlotRangeClipping, True], Rule[ImagePadding, All], \
-Rule[DisplayFunction, Identity], Rule[AspectRatio, NCache[Power[GoldenRatio, \
--1], 0.6180339887498948`]], Rule[Axes, List[True, True]], Rule[AxesLabel, \
-List[None, None]], Rule[AxesOrigin, List[0, 0]], RuleDelayed[DisplayFunction, \
-Identity], Rule[Frame, List[List[False, False], List[False, False]]], \
-Rule[FrameLabel, List[List[None, None], List[None, None]]], Rule[FrameTicks, \
-List[List[Automatic, Automatic], List[Automatic, Automatic]]], \
-Rule[GridLines, List[None, None]], Rule[GridLinesStyle, \
-Directive[GrayLevel[0.5`, 0.4`]]], Rule[Method, \
-List[Rule[\\\"DefaultBoundaryStyle\\\", Automatic], \
-Rule[\\\"DefaultGraphicsInteraction\\\", List[Rule[Skeleton[2]], \
-Rule[Skeleton[2]], Rule[Skeleton[2]]]], Rule[\\\"DefaultMeshStyle\\\", \
-AbsolutePointSize[6]], Rule[\\\"ScalingFunctions\\\", None], \
-Rule[\\\"CoordinatesToolOptions\\\", List[Rule[Skeleton[2]], \
-Rule[Skeleton[2]]]]]], Rule[PlotRange, List[List[-2, 2], List[0.`, 1.`]]], \
-Rule[PlotRangeClipping, True], Rule[PlotRangePadding, \
-List[List[Scaled[0.02`], Scaled[0.02`]], List[Automatic, Automatic]]], \
-Rule[Ticks, List[Automatic, Automatic]]]], \\\",\\\", \
-RowBox[{\\\"ListPlot\\\", \\\"[\\\", RowBox[{RowBox[{RowBox[{\\\"{\\\", \
-RowBox[{\\\"x\\\", \\\",\\\", RowBox[{\\\"f2\\\", \\\"[\\\", \
-RowBox[{\\\"x\\\", \\\",\\\", \\\"0.744`\\\"}], \\\"]\\\"}]}], \\\"}\\\"}], \
-\\\"/.\\\", \\\"\[VeryThinSpace]\\\", RowBox[{\\\"NSolve\\\", \\\"[\\\", \
-RowBox[{RowBox[{RowBox[{\\\"f2\\\", \\\"[\\\", RowBox[{\\\"x\\\", \\\",\\\", \
-\\\"0.744`\\\"}], \\\"]\\\"}], \\\"\[Equal]\\\", RowBox[{\\\"f1\\\", \
-\\\"[\\\", \\\"x\\\", \\\"]\\\"}]}], \\\",\\\", \\\"x\\\", \\\",\\\", \
-TemplateBox[List[], \\\"Reals\\\"]}], \\\"]\\\"}]}], \\\",\\\", \
-RowBox[{\\\"PlotStyle\\\", \\\"\[Rule]\\\", \
-TemplateBox[Association[Rule[\\\"color\\\", RGBColor[1, 0, 0]]], \
-\\\"RGBColorSwatchTemplate\\\"]}]}], \\\"]\\\"}]}], \\\"]\\\"}]\\).\"", 2, 19,
-    9, 32462147228807333336, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.941259253856247*^9},
- CellLabel->"",ExpressionUUID->"3103ac17-5763-d74c-9612-1c2b64f4ebcb"],
-
-Cell["\<\
-NSolve::nsmet: This system cannot be solved with the methods available to
-    NSolve.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.9414636837639046`*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"23851ae0-23a0-b94a-ba83-7435e1299b5f"],
-
-Cell["\<\
-ReplaceAll::reps: 
-   {NSolve[f2[x, 0.744] == f1[x], x, Reals]}
-     is neither a list of replacement rules nor a valid dispatch table, and so
-     cannot be used for replacing.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463683888893*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"e2334d4e-dcf9-284c-a925-940bfb21bcfe"],
-
-Cell["\<\
-ReplaceAll::reps: 
-   {False} is neither a list of replacement rules nor a valid dispatch table,
-     and so cannot be used for replacing.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463683982643*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"9f5cf163-f43c-d543-924d-59e52c770a54"],
-
-Cell["\<\
-ReplaceAll::reps: 
-   {Annotation[NSolve[f2[x, 0.744] == f1[x], x, Reals], 
-      Charting`Private`Tag#2]} is neither a list of replacement rules nor a
-     valid dispatch table, and so cannot be used for replacing.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463684013899*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"181f5960-651f-9649-9bf3-6a1c1ff16dfc"],
-
-Cell["\<\
-General::stop: Further output of ReplaceAll::reps
-     will be suppressed during this calculation.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463684029524*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"1b48f358-d409-a244-aa11-cb7220764dd9"],
-
-Cell["\<\
-ListPlot::lpn: Annotation[{x, f2[x, 0.744]}, Charting`Private`Tag#1] /. 
-     Annotation[NSolve[f2[x, 0.744] == f1[x], x, Reals], 
-      Charting`Private`Tag#2] is not a list of numbers or pairs of numbers.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463684138891*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"bc75fb13-4410-5c4c-8be5-82d487006a45"],
-
-Cell["\<\
-Show::gcomb: Could not combine the graphics objects in 
-    Show[-Graphics-, ListPlot[{x, f2[x, 0.744]} /. 
-       NSolve[f2[x, 0.744] == f1[x], x, Reals], 
-      PlotStyle -> RGBColor[1, 0, 0]]].\
-\>", "Message", "MSG",
- CellChangeTimes->{3.94146368421702*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"ac72a890-b5cc-8948-9c59-2be77b08fb38"],
-
-Cell["\<\
-Show::gcomb: Could not combine the graphics objects in 
-    Show[-Graphics-, ListPlot[{x, f2[x, 0.744]} /. 
-       NSolve[f2[x, 0.744] == f1[x], x, Reals], 
-      PlotStyle -> RGBColor[1, 0, 0]]].\
-\>", "Message", "MSG",
- CellChangeTimes->{3.94146368421702*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"d0e7c413-3317-ed4d-96c4-2684644bfb0d"],
-
-Cell["\<\
-NSolve::nsmet: This system cannot be solved with the methods available to
-    NSolve.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463684357643*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"fa212f42-12ca-0449-ad00-edf7c564f6f6"],
-
-Cell["\<\
-ReplaceAll::reps: 
-   {NSolve[f2[x, 0.744] == f1[x], x, Reals]}
-     is neither a list of replacement rules nor a valid dispatch table, and so
-     cannot be used for replacing.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463684357643*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"0ab9d728-7831-db49-b6db-435bfd077a46"],
-
-Cell["\<\
-ReplaceAll::reps: 
-   {False} is neither a list of replacement rules nor a valid dispatch table,
-     and so cannot be used for replacing.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463684420143*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"21ea9bed-94fc-184b-a0fd-1bfbcd995b38"],
-
-Cell["\<\
-ReplaceAll::reps: 
-   {Annotation[NSolve[f2[x, 0.744] == f1[x], x, Reals], 
-      Charting`Private`Tag#2]} is neither a list of replacement rules nor a
-     valid dispatch table, and so cannot be used for replacing.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.94146368443577*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"63bee5c2-a98a-cd4f-99e1-711dd52f29e4"],
-
-Cell["\<\
-General::stop: Further output of ReplaceAll::reps
-     will be suppressed during this calculation.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.94146368443577*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"94476543-a188-bd4c-941f-495e90bf7d99"],
-
-Cell["\<\
-ListPlot::lpn: Annotation[{x, f2[x, 0.744]}, Charting`Private`Tag#1] /. 
-     Annotation[NSolve[f2[x, 0.744] == f1[x], x, Reals], 
-      Charting`Private`Tag#2] is not a list of numbers or pairs of numbers.\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463684467024*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"6f89e71e-448c-714b-91a8-0de75b736bc9"],
-
-Cell["\<\
-Show::gcomb: Could not combine the graphics objects in 
-    Show[-Graphics-, ListPlot[{x, f2[x, 0.744]} /. 
-       NSolve[f2[x, 0.744] == f1[x], x, Reals], 
-      PlotStyle -> RGBColor[1, 0, 0]]].\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463684482645*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"3295a1bf-b28c-ec4d-bdc6-1084f9f1b518"],
-
-Cell["\<\
-Show::gcomb: Could not combine the graphics objects in 
-    Show[-Graphics-, ListPlot[{x, f2[x, 0.744]} /. 
-       NSolve[f2[x, 0.744] == f1[x], x, Reals], 
-      PlotStyle -> RGBColor[1, 0, 0]]].\
-\>", "Message", "MSG",
- CellChangeTimes->{3.941463684482645*^9},
- CellLabel->
-  "During evaluation of \
-In[1]:=",ExpressionUUID->"e30c034e-a32f-d349-9318-2059bc13596c"]
+   3.940598850117964*^9, 3.940638996904167*^9, 3.9410871853272457`*^9, 
+   3.947483420588915*^9, 3.947483604711933*^9},
+ CellLabel->"Out[62]=",ExpressionUUID->"ebcadfed-3500-7b41-ab0b-c3ef128fad16"]
 }, Open  ]],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  SubscriptBox[
   SubscriptBox["\[Placeholder]", "\[Placeholder]"], 
   "\[Placeholder]"]], "Input",
- CellChangeTimes->{{3.9404759960285606`*^9, 
-  3.9404759961490784`*^9}},ExpressionUUID->"72a74ef2-515d-f741-adbc-\
-1383885376f7"],
+ CellChangeTimes->{{3.9404759960285606`*^9, 3.9404759961490784`*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"72a74ef2-515d-f741-adbc-1383885376f7"],
+
+Cell[BoxData[
+ SubscriptBox[
+  SubscriptBox["\[Placeholder]", "\[Placeholder]"], 
+  "\[Placeholder]"]], "Output",
+ CellChangeTimes->{3.947483422053669*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"6c9949d7-2de9-6f48-bca2-385155442c47"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -689,8 +369,7 @@ Cell[BoxData[
          RowBox[{"-", "2"}], ",", " ", "2"}], "}"}], ",", " ", 
        RowBox[{"{", 
         RowBox[{"y", ",", " ", 
-         RowBox[{"-", "0.1"}], ",", " ", "0.1"}], "}"}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+         RowBox[{"-", "0.1"}], ",", " ", "0.1"}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"p3", "=", " ", 
      RowBox[{"ListPlot", "[", 
@@ -701,8 +380,8 @@ Cell[BoxData[
           RowBox[{"x", "/.", 
            RowBox[{
             RowBox[{"sol", "[", "r", "]"}], "[", 
-            RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-       ",", " ", 
+            RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+        " ", 
        RowBox[{"PlotMarkers", "->", 
         RowBox[{"{", 
          RowBox[{
@@ -721,8 +400,8 @@ Cell[BoxData[
           RowBox[{"x", "/.", 
            RowBox[{
             RowBox[{"sol", "[", "r", "]"}], "[", 
-            RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-       ",", " ", 
+            RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+        " ", 
        RowBox[{"PlotMarkers", "->", 
         RowBox[{"{", 
          RowBox[{
@@ -751,16 +430,15 @@ Cell[BoxData[
    3.940504572885168*^9}, {3.94050480235874*^9, 3.940504802442892*^9}, {
    3.9405051440365715`*^9, 3.9405051467022038`*^9}},
  NumberMarks->False,
- CellLabel->
-  "In[694]:=",ExpressionUUID->"a80038dc-3bc7-bf42-8cf6-975d8fb3e8eb"],
+ CellLabel->"In[8]:=",ExpressionUUID->"a80038dc-3bc7-bf42-8cf6-975d8fb3e8eb"],
 
 Cell[BoxData[
  GraphicsBox[{
    InterpretationBox[{
      TagBox[{{{}, {}, 
         TagBox[
-         {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[2], 
-          Opacity[1.], LineBox[CompressedData["
+         {RGBColor[0.24, 0.6, 0.8], AbsoluteThickness[2], Opacity[1.], 
+          LineBox[CompressedData["
 1:eJw12nk0lN//AHAJSSUVpZIkIluKSOEdLWQpqSRkK1JJJVtIUiQ72bdEWbIm
 +3bHOjP2fU92kxhjX+rD7873nJ8/OK/z3JnnPve5972c44jpU20zRgYGBoR/
 0f+a/BtcEmFYQwz/+xlExj4naT1uq0iFryn4akA/Wgly8kSwgpiXePnll9vR
@@ -1006,7 +684,7 @@ VTdIWIdkAz63/S/6kaTDS5OojHU4E/ImK3+2H7EfzvfZX70OrIf9d4TRfiKy
             Annotation[{
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               Line[CompressedData["
 1:eJw12nk0lN//AHAJSSUVpZIkIluKSOEdLWQpqSRkK1JJJVtIUiQ72bdEWbIm
@@ -1252,12 +930,12 @@ VTdIWIdkAz63/S/6kaTDS5OojHU4E/ImK3+2H7EfzvfZX70OrIf9d4TRfiKy
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -1275,12 +953,12 @@ VTdIWIdkAz63/S/6kaTDS5OojHU4E/ImK3+2H7EfzvfZX70OrIf9d4TRfiKy
            GoldenRatio^(-1), "DefaultStyle" -> {
              Directive[
               Opacity[1.], 
-              RGBColor[0.368417, 0.506779, 0.709798], 
+              RGBColor[0.24, 0.6, 0.8], 
               AbsoluteThickness[2]]}, 
            "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-               Identity[
+               (Identity[#]& )[
                 Part[#, 1]], 
-               Identity[
+               (Identity[#]& )[
                 Part[#, 2]]}& ), 
              "ScalingFunctions" -> {{Identity, Identity}, {
                Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -1288,14 +966,14 @@ VTdIWIdkAz63/S/6kaTDS5OojHU4E/ImK3+2H7EfzvfZX70OrIf9d4TRfiKy
          "Meta" -> <|
           "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
            Plot, "GroupHighlight" -> False|>|>],
-       ImageSizeCache->{{93.59226855468754, 
-        218.15773144531252`}, {-5.204370075138305, 14.050317424861694`}}],
+       ImageSizeCache->{{4.503599627370496*^15, -4.503599627370496*^15}, {
+        4.503599627370496*^15, -4.503599627370496*^15}}],
       Selectable->False]},
     Annotation[{{{{}, {}, 
         Annotation[{
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           Line[CompressedData["
 1:eJw12nk0lN//AHAJSSUVpZIkIluKSOEdLWQpqSRkK1JJJVtIUiQ72bdEWbIm
@@ -1540,19 +1218,19 @@ VTdIWIdkAz63/S/6kaTDS5OojHU4E/ImK3+2H7EfzvfZX70OrIf9d4TRfiKy
         "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]]}, 
         "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-            Identity[
+            (Identity[#]& )[
              Part[#, 1]], 
-            Identity[
+            (Identity[#]& )[
              Part[#, 2]]}& ), 
           "ScalingFunctions" -> {{Identity, Identity}, {
             Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
       "Meta" -> <|
        "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
         Plot, "GroupHighlight" -> False|>|>, "DynamicHighlight"]], {{}, {
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.020000000000000004`, 1.}}], 
        {LABColor[
         0.18866854983579062`, 0.5225960994418353, -0.8572083060385101], 
@@ -1679,7 +1357,7 @@ X+31z2BBuY9wPvstxfYnKQh+VYmn9f6pCD4AgEuMUQ==
          1.7697788409636125`*^-6}, {1.7286178119377027`, 
          1.7697788409636125`*^-6}, {1.7301954129612331`, 
          1.7697788409636125`*^-6}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.020000000000000004`, 1.}}], 
        {LABColor[0.1886675222501131, 0.5225961012766809, -0.8572107619122568],
          ArrowBox[CompressedData["
@@ -1705,7 +1383,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
         ArrowBox[{{-1.8454700316666974`, -8.562455870731101*^-8}, \
 {-1.856450310972087, -8.562455870731101*^-8}, {-1.8968312551976396`, \
 -8.562455870731101*^-8}, {-1.94098505911082, -8.562455870731101*^-8}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.016579934957612064`, 1.}}], 
        {LABColor[
         0.4758412795221107, 0.5270047763843995, -0.019072511174255846`], 
@@ -1727,9 +1405,8 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -1737,7 +1414,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[10]], {{{
           1.7320508075688772`, 0.}}, {{1.7320508075688772`, 0.}}}]},
@@ -1753,7 +1430,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -1763,7 +1440,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
                    Disk[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{1.7320508075688772`, 0.}}, {{
                1.7320508075688772`, 0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -1778,12 +1455,12 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -1802,12 +1479,12 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -1822,7 +1499,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -1832,7 +1509,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
                Disk[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{1.7320508075688772`, 0.}}, {{1.7320508075688772`, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -1847,12 +1524,12 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -1863,9 +1540,8 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -1873,7 +1549,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[
            10]], {{{-1.189207115002721, 0.}}, {{-1.189207115002721, 0.}}}]},
@@ -1889,7 +1565,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -1899,7 +1575,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
                    Circle[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{-1.189207115002721, 
                0.}}, {{-1.189207115002721, 0.}}}]}, 
@@ -1915,12 +1591,12 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -1939,12 +1615,12 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -1959,7 +1635,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -1969,7 +1645,7 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
                Circle[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{-1.189207115002721, 0.}}, {{-1.189207115002721, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -1984,12 +1660,12 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -2050,9 +1726,8 @@ qen78PMLEPzYi2crKtS+wfnBK6J5psxE8D1KXWYWKX+H88U/n/ey3Ivg8553
    3.9405018961572075`*^9, {3.940504252318411*^9, 3.9405042663155746`*^9}, 
    3.9405043300967445`*^9, {3.940504430208826*^9, 3.940504497683573*^9}, 
    3.9405045285641823`*^9, {3.940504564677803*^9, 3.94050458147777*^9}, 
-   3.9405048046436176`*^9, 3.9405051479755898`*^9},
- CellLabel->
-  "Out[700]=",ExpressionUUID->"ebd79df2-01f2-a342-8438-3c4777c47d1f"],
+   3.9405048046436176`*^9, 3.9405051479755898`*^9, 3.9474834226084156`*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"bbedbb90-4495-f648-be85-baa10d844801"],
 
 Cell[BoxData[
  TemplateBox[{
@@ -2121,8 +1796,7 @@ Cell[BoxData[{
        RowBox[{"-", "2"}], ",", " ", "2"}], "}"}], ",", " ", 
      RowBox[{"{", 
       RowBox[{"y", ",", " ", 
-       RowBox[{"-", "0.1"}], ",", " ", "0.1"}], "}"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+       RowBox[{"-", "0.1"}], ",", " ", "0.1"}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"p3", "=", " ", 
    RowBox[{"ListPlot", "[", 
@@ -2133,8 +1807,8 @@ Cell[BoxData[{
         RowBox[{"x", "/.", 
          RowBox[{
           RowBox[{"sol", "[", "r", "]"}], "[", 
-          RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-     ",", " ", 
+          RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+      " ", 
      RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{
@@ -2153,8 +1827,8 @@ Cell[BoxData[{
         RowBox[{"x", "/.", 
          RowBox[{
           RowBox[{"sol", "[", "r", "]"}], "[", 
-          RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-     ",", " ", 
+          RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+      " ", 
      RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{
@@ -2189,8 +1863,8 @@ Cell[BoxData[{
               RowBox[{
                RowBox[{
                 RowBox[{"-", "Pi"}], "/", "2"}], ",", " ", 
-               RowBox[{"Pi", "/", "2"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
-        ",", " ", "10"}], "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+               RowBox[{"Pi", "/", "2"}]}], "}"}]}], "]"}]}], "}"}], "]"}], ",",
+         " ", "10"}], "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"p5", "=", " ", 
    RowBox[{"ListPlot", "[", 
@@ -2201,8 +1875,8 @@ Cell[BoxData[{
         RowBox[{"x", "/.", 
          RowBox[{
           RowBox[{"sol", "[", "r", "]"}], "[", 
-          RowBox[{"[", "4", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-     ",", " ", 
+          RowBox[{"[", "4", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+      " ", 
      RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{
@@ -2218,16 +1892,15 @@ Cell[BoxData[{
    3.9405018810372963`*^9, {3.940504603318985*^9, 3.940504634202427*^9}, {
    3.9405047373052464`*^9, 3.940504777783373*^9}, {3.9405051048383484`*^9, 
    3.9405051157675076`*^9}, {3.940505574025032*^9, 3.940505589939743*^9}},
- CellLabel->
-  "In[781]:=",ExpressionUUID->"22f94aeb-d901-394d-b61b-a21197bc7dc3"],
+ CellLabel->"In[15]:=",ExpressionUUID->"22f94aeb-d901-394d-b61b-a21197bc7dc3"],
 
 Cell[BoxData[
  GraphicsBox[{
    InterpretationBox[{
      TagBox[{{{}, {}, 
         TagBox[
-         {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[2], 
-          Opacity[1.], LineBox[CompressedData["
+         {RGBColor[0.24, 0.6, 0.8], AbsoluteThickness[2], Opacity[1.], 
+          LineBox[CompressedData["
 1:eJw12nk0Vd/bAHAZKopUSklIKiRzpsoTlaQIISGiKKQvylCGJGRKyBSSeShz
 5mmb773meZ7nZLimSNK772+t1x+szzp7n3XOPs9+9vOs5YTRf+rG1FRUVEH4
 F+XvhMbULWH7VUT1v58R5PrU0J7vxip6I7ePpVtvCA356UcWXVlFSVoNZ1IF
@@ -2460,7 +2133,7 @@ gP//f8n/A0a8d2A=
             Annotation[{
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               Line[CompressedData["
 1:eJw12nk0Vd/bAHAZKopUSklIKiRzpsoTlaQIISGiKKQvylCGJGRKyBSSeShz
@@ -2693,12 +2366,12 @@ gP//f8n/A0a8d2A=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -2716,12 +2389,12 @@ gP//f8n/A0a8d2A=
            GoldenRatio^(-1), "DefaultStyle" -> {
              Directive[
               Opacity[1.], 
-              RGBColor[0.368417, 0.506779, 0.709798], 
+              RGBColor[0.24, 0.6, 0.8], 
               AbsoluteThickness[2]]}, 
            "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-               Identity[
+               (Identity[#]& )[
                 Part[#, 1]], 
-               Identity[
+               (Identity[#]& )[
                 Part[#, 2]]}& ), 
              "ScalingFunctions" -> {{Identity, Identity}, {
                Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -2736,7 +2409,7 @@ gP//f8n/A0a8d2A=
         Annotation[{
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           Line[CompressedData["
 1:eJw12nk0Vd/bAHAZKopUSklIKiRzpsoTlaQIISGiKKQvylCGJGRKyBSSeShz
@@ -2968,19 +2641,19 @@ gP//f8n/A0a8d2A=
         "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]]}, 
         "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-            Identity[
+            (Identity[#]& )[
              Part[#, 1]], 
-            Identity[
+            (Identity[#]& )[
              Part[#, 2]]}& ), 
           "ScalingFunctions" -> {{Identity, Identity}, {
             Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
       "Meta" -> <|
        "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
         Plot, "GroupHighlight" -> False|>|>, "DynamicHighlight"]], {{}, {
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.020000000000000004`, 1.}}], 
        {LABColor[0.1887210209801374, 0.5225960057499407, -0.8570829028641745],
          ArrowBox[{{-0.9351200558496957, 
@@ -3072,7 +2745,7 @@ gP//f8n/A0a8d2A=
          1.7697788409636125`*^-6}, {0.9271256692206084, 
          1.7697788409636125`*^-6}, {0.9324731962665508, 
          1.7697788409636125`*^-6}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.020000000000000004`, 1.}}], 
        {LABColor[
         0.18873494941582086`, 0.5225959808794801, -0.8570496146622498], 
@@ -3110,7 +2783,7 @@ gfMBIcjk/A==
         ArrowBox[{{-1.9202266400742423`, -3.9347542872716894`*^-8}, \
 {-1.925584919321081, -3.9347542872716894`*^-8}, {-1.9727599358996164`, \
 -3.9347542872716894`*^-8}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.019999999999999997`, 1.}}], 
        {LABColor[0.1886675222501131, 0.5225961012766809, -0.8572107619122568],
          ArrowBox[CompressedData["
@@ -3131,7 +2804,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
          1.6803368649924618`*^-8}, {1.358054141369079, 
          1.6803368649924618`*^-8}, {1.3600903787548109`, 
          1.6803368649924618`*^-8}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.020000000000000004`, 1.}}], 
        {LABColor[
         0.6749280126323767, 0.46850690840545484`, 0.7491104683026957], 
@@ -3167,9 +2840,8 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -3177,7 +2849,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[
            10]], {{{-0.9356154226309104, 0.}}, {{-0.9356154226309104, 0.}}}]},
@@ -3193,7 +2865,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -3203,7 +2875,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
                    Circle[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{-0.9356154226309104, 
                0.}}, {{-0.9356154226309104, 0.}}}]}, 
@@ -3219,12 +2891,12 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -3243,12 +2915,12 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -3263,7 +2935,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -3273,7 +2945,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
                Circle[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{-0.9356154226309104, 0.}}, {{-0.9356154226309104, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -3288,12 +2960,12 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -3304,9 +2976,8 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[{
@@ -3326,7 +2997,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[10]], {{{
           0.947304845848291, 0.}}, {{0.947304845848291, 0.}}}]},
@@ -3342,7 +3013,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -3358,7 +3029,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
                     Rational[-1, 2] Pi, Rational[1, 2] Pi}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{0.947304845848291, 0.}}, {{0.947304845848291, 
                0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -3373,12 +3044,12 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -3397,12 +3068,12 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -3417,7 +3088,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -3431,7 +3102,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
                Circle[{0, 0}, 1, {Rational[-1, 2] Pi, Rational[1, 2] Pi}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{0.947304845848291, 0.}}, {{0.947304845848291, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -3446,12 +3117,12 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -3462,9 +3133,8 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -3472,7 +3142,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[10]], {{{
           1.3627007675092642`, 0.}}, {{1.3627007675092642`, 0.}}}]},
@@ -3488,7 +3158,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -3498,7 +3168,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
                    Disk[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{1.3627007675092642`, 0.}}, {{
                1.3627007675092642`, 0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -3513,12 +3183,12 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -3537,12 +3207,12 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -3557,7 +3227,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -3567,7 +3237,7 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
                Disk[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{1.3627007675092642`, 0.}}, {{1.3627007675092642`, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -3582,12 +3252,12 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -3639,9 +3309,9 @@ XPWprd2F4Lf7CRSu5fmAMN+GaekPbwS/WOiT+as5CP6jlqaU5s8IfoJZiscM
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
   3.9405046352433605`*^9, {3.9405047687261047`*^9, 3.940504779143465*^9}, {
-   3.9405051091800957`*^9, 3.940505116830784*^9}, 3.940505591061369*^9},
- CellLabel->
-  "Out[788]=",ExpressionUUID->"a280fa27-56ef-554d-9359-aaec61260749"]
+   3.9405051091800957`*^9, 3.940505116830784*^9}, 3.940505591061369*^9, 
+   3.947483422909933*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"ca6318b9-cff9-964a-bf83-483606ca1c58"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3691,8 +3361,7 @@ Cell[BoxData[{
        RowBox[{"-", "1"}], ",", " ", "1.4"}], "}"}], ",", " ", 
      RowBox[{"{", 
       RowBox[{"y", ",", " ", 
-       RowBox[{"-", "0.05"}], ",", " ", "0.05"}], "}"}]}], "]"}]}], 
-  ";"}], "\[IndentingNewLine]", 
+       RowBox[{"-", "0.05"}], ",", " ", "0.05"}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"p3", "=", " ", 
    RowBox[{"ListPlot", "[", 
@@ -3703,8 +3372,8 @@ Cell[BoxData[{
         RowBox[{"x", "/.", 
          RowBox[{
           RowBox[{"sol", "[", "r", "]"}], "[", 
-          RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-     ",", " ", 
+          RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+      " ", 
      RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{
@@ -3723,8 +3392,8 @@ Cell[BoxData[{
         RowBox[{"x", "/.", 
          RowBox[{
           RowBox[{"sol", "[", "r", "]"}], "[", 
-          RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-     ",", " ", 
+          RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+      " ", 
      RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{
@@ -3743,8 +3412,8 @@ Cell[BoxData[{
         RowBox[{"x", "/.", 
          RowBox[{
           RowBox[{"sol", "[", "r", "]"}], "[", 
-          RowBox[{"[", "3", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-     ",", " ", 
+          RowBox[{"[", "3", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+      " ", 
      RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{
@@ -3763,8 +3432,8 @@ Cell[BoxData[{
         RowBox[{"x", "/.", 
          RowBox[{
           RowBox[{"sol", "[", "r", "]"}], "[", 
-          RowBox[{"[", "4", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-     ",", " ", 
+          RowBox[{"[", "4", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+      " ", 
      RowBox[{"PlotMarkers", "->", 
       RowBox[{"{", 
        RowBox[{
@@ -3779,16 +3448,15 @@ Cell[BoxData[{
    "p6"}], "]"}]}], "Input",
  CellChangeTimes->{{3.940504850729994*^9, 3.940505091190485*^9}, {
   3.9405051306144753`*^9, 3.9405051312047577`*^9}},
- CellLabel->
-  "In[685]:=",ExpressionUUID->"6f8033fd-6885-254e-b65b-74d23ec074a3"],
+ CellLabel->"In[23]:=",ExpressionUUID->"6f8033fd-6885-254e-b65b-74d23ec074a3"],
 
 Cell[BoxData[
  GraphicsBox[{
    InterpretationBox[{
      TagBox[{{{}, {}, 
         TagBox[
-         {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[2], 
-          Opacity[1.], LineBox[CompressedData["
+         {RGBColor[0.24, 0.6, 0.8], AbsoluteThickness[2], Opacity[1.], 
+          LineBox[CompressedData["
 1:eJwd13c81d8bAHBpSSWZZWdUpBD5ynqEjDJKRFKilEpGSUhWCJEdkZGRFdlZ
 Ofa913bt7E3luiJF0u/cnz94vV/O5zmfzxnPOc8hSzsDK3o6Orp2/Iv2t/N8
 0fS/f4tozXJb00npLiTw+5fi77VFZLVU9ouLuwvZpipEUpcX0eHWgVrmrV2I
@@ -4040,7 +3708,7 @@ Fq6OGpDk/aErPboEzsG3a/8JIPAbP0J3i/UHUDlPPpieLIaT9yJuNTz9AZ5u
             Annotation[{
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               Line[CompressedData["
 1:eJwd13c81d8bAHBpSSWZZWdUpBD5ynqEjDJKRFKilEpGSUhWCJEdkZGRFdlZ
@@ -4292,12 +3960,12 @@ Fq6OGpDk/aErPboEzsG3a/8JIPAbP0J3i/UHUDlPPpieLIaT9yJuNTz9AZ5u
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -4315,12 +3983,12 @@ Fq6OGpDk/aErPboEzsG3a/8JIPAbP0J3i/UHUDlPPpieLIaT9yJuNTz9AZ5u
            GoldenRatio^(-1), "DefaultStyle" -> {
              Directive[
               Opacity[1.], 
-              RGBColor[0.368417, 0.506779, 0.709798], 
+              RGBColor[0.24, 0.6, 0.8], 
               AbsoluteThickness[2]]}, 
            "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-               Identity[
+               (Identity[#]& )[
                 Part[#, 1]], 
-               Identity[
+               (Identity[#]& )[
                 Part[#, 2]]}& ), 
              "ScalingFunctions" -> {{Identity, Identity}, {
                Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -4335,7 +4003,7 @@ Fq6OGpDk/aErPboEzsG3a/8JIPAbP0J3i/UHUDlPPpieLIaT9yJuNTz9AZ5u
         Annotation[{
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           Line[CompressedData["
 1:eJwd13c81d8bAHBpSSWZZWdUpBD5ynqEjDJKRFKilEpGSUhWCJEdkZGRFdlZ
@@ -4586,19 +4254,19 @@ Fq6OGpDk/aErPboEzsG3a/8JIPAbP0J3i/UHUDlPPpieLIaT9yJuNTz9AZ5u
         "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]]}, 
         "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-            Identity[
+            (Identity[#]& )[
              Part[#, 1]], 
-            Identity[
+            (Identity[#]& )[
              Part[#, 2]]}& ), 
           "ScalingFunctions" -> {{Identity, Identity}, {
             Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
       "Meta" -> <|
        "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
         Plot, "GroupHighlight" -> False|>|>, "DynamicHighlight"]], {{}, {
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.020000000000000007`, 1.}}], 
        {LABColor[0.1886675222501131, 0.5225961012766809, -0.8572107619122568],
          ArrowBox[{{-0.7949664033341305, -8.318431734671425*^-7}, \
@@ -4699,7 +4367,7 @@ Fq6OGpDk/aErPboEzsG3a/8JIPAbP0J3i/UHUDlPPpieLIaT9yJuNTz9AZ5u
         ArrowBox[{{0.7794335966658698, -8.318431734671425*^-7}, {
          0.7872624698485182, -8.318431734671425*^-7}, {
          0.7901240328752991, -8.318431734671425*^-7}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.019999999999999997`, 1.}}], 
        {LABColor[
         0.18872381278274486`, 0.5225960007649288, -0.8570762306081479], 
@@ -4715,7 +4383,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
        {LABColor[0.3355418856840886, 0.522333844038979, -0.5061890406896628], 
         ArrowBox[{{-0.9924834679691363, 5.297269819328117*^-9}, {-1., 
          5.297269819328117*^-9}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.020000000000000007`, 1.}}], 
        {LABColor[
         0.19307511637064298`, 0.5225882311254038, -0.8466768522600493], 
@@ -4737,7 +4405,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
          2.9060443550105193`*^-8}, {0.8039888688185899, 
          2.9060443550105193`*^-8}, {0.8030535626990347, 
          2.9060443550105193`*^-8}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.01681128202767476, 1.}}], 
        {LABColor[0.1891292143766487, 0.5225952768843298, -0.8561073429006448],
          ArrowBox[{{0.9956234311851342, 5.0707551507345325`*^-8}, {
@@ -4758,7 +4426,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
          5.0707551507345325`*^-8}, {1.1560113748145955`, 
          5.0707551507345325`*^-8}, {1.1570117386508119`, 
          5.0707551507345325`*^-8}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.019999999999999997`, 1.}}], 
        {LABColor[0.6666210984603579, 0.4874492873954913, 0.7444763878040042], 
         ArrowBox[{{1.3724617459039443`, -4.821546043011015*^-8}, {
@@ -4783,9 +4451,8 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -4793,7 +4460,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[
            10]], {{{-0.7952707287670506, 0.}}, {{-0.7952707287670506, 0.}}}]},
@@ -4809,7 +4476,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -4819,7 +4486,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
                    Circle[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{-0.7952707287670506, 
                0.}}, {{-0.7952707287670506, 0.}}}]}, 
@@ -4835,12 +4502,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -4859,12 +4526,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -4879,7 +4546,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -4889,7 +4556,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
                Circle[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{-0.7952707287670506, 0.}}, {{-0.7952707287670506, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -4904,12 +4571,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -4920,9 +4587,8 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -4930,7 +4596,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[10]], {{{
           0.7952707824086126, 0.}}, {{0.7952707824086126, 0.}}}]},
@@ -4946,7 +4612,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -4956,7 +4622,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
                    Disk[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{0.7952707824086126, 0.}}, {{
                0.7952707824086126, 0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -4971,12 +4637,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -4995,12 +4661,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -5015,7 +4681,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -5025,7 +4691,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
                Disk[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{0.7952707824086126, 0.}}, {{0.7952707824086126, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -5040,12 +4706,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -5056,9 +4722,8 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -5066,7 +4731,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[10]], {{{
           0.9957919010759753, 0.}}, {{0.9957919010759753, 0.}}}]},
@@ -5082,7 +4747,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -5092,7 +4757,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
                    Circle[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{0.9957919010759753, 0.}}, {{
                0.9957919010759753, 0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -5107,12 +4772,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -5131,12 +4796,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -5151,7 +4816,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -5161,7 +4826,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
                Circle[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{0.9957919010759753, 0.}}, {{0.9957919010759753, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -5176,12 +4841,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -5192,9 +4857,8 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -5202,7 +4866,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[10]], {{{
           1.158291472429246, 0.}}, {{1.158291472429246, 0.}}}]},
@@ -5218,7 +4882,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -5228,7 +4892,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
                    Disk[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{1.158291472429246, 0.}}, {{1.158291472429246, 
                0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -5243,12 +4907,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -5267,12 +4931,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -5287,7 +4951,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -5297,7 +4961,7 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
                Disk[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{1.158291472429246, 0.}}, {{1.158291472429246, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -5312,12 +4976,12 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -5369,9 +5033,9 @@ v0OrvHragXdw+UVTHkT9qX0P54u4mcdIzUbwAVkh0i8=
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
   3.940504875650879*^9, {3.940504908177685*^9, 3.9405049208502617`*^9}, {
-   3.940504952693756*^9, 3.9405050923395786`*^9}, 3.9405051323128986`*^9},
- CellLabel->
-  "Out[693]=",ExpressionUUID->"5616132d-0b12-6344-af2d-a10d413c00ed"]
+   3.940504952693756*^9, 3.9405050923395786`*^9}, 3.9405051323128986`*^9, 
+   3.9474834233084927`*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"596032b3-d7ba-974d-ba4f-e887b303f31b"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -5383,22 +5047,20 @@ Cell[BoxData[
     RowBox[{
      RowBox[{
      "This", " ", "is", " ", "r_c", " ", "since", " ", "it", " ", "is", " ", 
-      "the", " ", "largest", " ", "r", " ", "that", " ", "causes", " ", "a", 
-      " ", "change", " ", "in", " ", "the", " ", "number", " ", "of", " ", 
+      "the", " ", "largest", " ", "r", " ", "that", " ", "causes", " ", "a", " ",
+       "change", " ", "in", " ", "the", " ", "number", " ", "of", " ", 
       "fixed", " ", 
       RowBox[{"points", ".", " ", "For"}], " ", "r"}], " ", ">", " ", 
      "0.749"}], ",", " ", 
     RowBox[{
-    "we", " ", "will", " ", "always", " ", "have", " ", "2", " ", "fixed", 
-     " ", 
+    "we", " ", "will", " ", "always", " ", "have", " ", "2", " ", "fixed", " ", 
      RowBox[{"points", ".", " ", "Moreover"}]}], ",", " ", 
     RowBox[{
      RowBox[{"for", " ", "r"}], " ", ">", " ", 
      RowBox[{
      "0.749", " ", "the", " ", "temperature", " ", "will", " ", "always", " ",
        "decrease", " ", "indicating", " ", "that", " ", "the", " ", 
-      "dynamics", " ", "bifurcates", " ", "to", " ", "a", " ", "snowball", 
-      " ", 
+      "dynamics", " ", "bifurcates", " ", "to", " ", "a", " ", "snowball", " ", 
       RowBox[{"earth", "."}]}]}]}], " ", "*)"}], "\[IndentingNewLine]", 
   RowBox[{
    RowBox[{
@@ -5445,8 +5107,7 @@ Cell[BoxData[
          RowBox[{"-", "1"}], ",", " ", "1.4"}], "}"}], ",", " ", 
        RowBox[{"{", 
         RowBox[{"y", ",", " ", 
-         RowBox[{"-", "0.05"}], ",", " ", "0.05"}], "}"}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+         RowBox[{"-", "0.05"}], ",", " ", "0.05"}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"p3", "=", " ", 
      RowBox[{"ListPlot", "[", 
@@ -5457,8 +5118,8 @@ Cell[BoxData[
           RowBox[{"x", "/.", 
            RowBox[{
             RowBox[{"sol", "[", "r", "]"}], "[", 
-            RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-       ",", " ", 
+            RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+        " ", 
        RowBox[{"PlotMarkers", "->", 
         RowBox[{"{", 
          RowBox[{
@@ -5477,8 +5138,8 @@ Cell[BoxData[
           RowBox[{"x", "/.", 
            RowBox[{
             RowBox[{"sol", "[", "r", "]"}], "[", 
-            RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-       ",", " ", 
+            RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+        " ", 
        RowBox[{"PlotMarkers", "->", 
         RowBox[{"{", 
          RowBox[{
@@ -5497,8 +5158,8 @@ Cell[BoxData[
           RowBox[{"x", "/.", 
            RowBox[{
             RowBox[{"sol", "[", "r", "]"}], "[", 
-            RowBox[{"[", "4", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-       ",", " ", 
+            RowBox[{"[", "4", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+        " ", 
        RowBox[{"PlotMarkers", "->", 
         RowBox[{"{", 
          RowBox[{
@@ -5533,24 +5194,23 @@ Cell[BoxData[
                 RowBox[{
                  RowBox[{
                   RowBox[{"-", "Pi"}], "/", "2"}], ",", " ", 
-                 RowBox[{"Pi", "/", "2"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
-          ",", " ", "10"}], "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+                 RowBox[{"Pi", "/", "2"}]}], "}"}]}], "]"}]}], "}"}], "]"}], ",",
+           " ", "10"}], "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{"Show", "[", 
     RowBox[{"p1", ",", " ", "p2", ",", " ", "p3", ",", " ", "p4", ",", "p5"}],
      "]"}]}]}]], "Input",
  CellChangeTimes->{{3.9405052322390766`*^9, 3.940505264589102*^9}, {
   3.940505381320797*^9, 3.9405054765532475`*^9}, {3.9405055430176964`*^9, 
-  3.9405055451752663`*^9}, {3.940507165367918*^9, 
-  3.9405072774867516`*^9}},ExpressionUUID->"5521cb38-14f6-2349-a88b-\
-3ae224c3bbb2"],
+  3.9405055451752663`*^9}, {3.940507165367918*^9, 3.9405072774867516`*^9}},
+ CellLabel->"In[32]:=",ExpressionUUID->"5521cb38-14f6-2349-a88b-3ae224c3bbb2"],
 
 Cell[BoxData[
  GraphicsBox[{
    InterpretationBox[{
      TagBox[{{{}, {}, 
         TagBox[
-         {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[2], 
-          Opacity[1.], LineBox[CompressedData["
+         {RGBColor[0.24, 0.6, 0.8], AbsoluteThickness[2], Opacity[1.], 
+          LineBox[CompressedData["
 1:eJw12nc019//AHBpfCTJKBVCpKJBRPZThSihIpJKQiqrkoyyQhGREaHsEZnZ
 62l7vyV77z0qo4yKxu++v+f8/MF5nNd9Pe993de9z/t6nmO3kdV5E3o6Orpq
 8ov2V6rk5r5DtnNI97+fIQxpF2pghDncYu1g3FozgFeuReZuc5pF8Y9mu0vz
@@ -5798,7 +5458,7 @@ hN8n6epHFLsdaFzt+B0yJCQVyqp7kXtSZF9P1nf4//8f/j86VQXD
             Annotation[{
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               Line[CompressedData["
 1:eJw12nc019//AHBpfCTJKBVCpKJBRPZThSihIpJKQiqrkoyyQhGREaHsEZnZ
@@ -6046,12 +5706,12 @@ hN8n6epHFLsdaFzt+B0yJCQVyqp7kXtSZF9P1nf4//8f/j86VQXD
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -6069,12 +5729,12 @@ hN8n6epHFLsdaFzt+B0yJCQVyqp7kXtSZF9P1nf4//8f/j86VQXD
            GoldenRatio^(-1), "DefaultStyle" -> {
              Directive[
               Opacity[1.], 
-              RGBColor[0.368417, 0.506779, 0.709798], 
+              RGBColor[0.24, 0.6, 0.8], 
               AbsoluteThickness[2]]}, 
            "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-               Identity[
+               (Identity[#]& )[
                 Part[#, 1]], 
-               Identity[
+               (Identity[#]& )[
                 Part[#, 2]]}& ), 
              "ScalingFunctions" -> {{Identity, Identity}, {
                Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -6089,7 +5749,7 @@ hN8n6epHFLsdaFzt+B0yJCQVyqp7kXtSZF9P1nf4//8f/j86VQXD
         Annotation[{
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           Line[CompressedData["
 1:eJw12nc019//AHBpfCTJKBVCpKJBRPZThSihIpJKQiqrkoyyQhGREaHsEZnZ
@@ -6336,19 +5996,19 @@ hN8n6epHFLsdaFzt+B0yJCQVyqp7kXtSZF9P1nf4//8f/j86VQXD
         "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]]}, 
         "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-            Identity[
+            (Identity[#]& )[
              Part[#, 1]], 
-            Identity[
+            (Identity[#]& )[
              Part[#, 2]]}& ), 
           "ScalingFunctions" -> {{Identity, Identity}, {
             Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
       "Meta" -> <|
        "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
         Plot, "GroupHighlight" -> False|>|>, "DynamicHighlight"]], {{}, {
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.019999999999999997`, 1.}}], 
        {LABColor[
         0.18868505818845455`, 0.5225960699647034, -0.8571688519756555], 
@@ -6439,7 +6099,7 @@ hN8n6epHFLsdaFzt+B0yJCQVyqp7kXtSZF9P1nf4//8f/j86VQXD
          0.700481201677919, -8.318431734671425*^-7}, {
          0.7114558247784826, -8.318431734671425*^-7}, {
          0.7142392599303372, -8.318431734671425*^-7}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.019999999999999997`, 1.}}], 
        {LABColor[0.1886675222501131, 0.5225961012766809, -0.8572107619122568],
          ArrowBox[CompressedData["
@@ -6465,7 +6125,7 @@ T17Ob6t6DeeH3DDUrLnzCs4HAHTlyo4=
          8.282139501349017*^-9}, {0.7240851601542179, 
          8.282139501349017*^-9}, {0.7220435419394136, 
          8.282139501349017*^-9}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.019999999999999997`, 1.}}], 
        {LABColor[0.6944243727083957, 0.4240490707730218, 0.7599866733714896], 
         ArrowBox[{{1.3737119506315492`, -5.7360677471896825`*^-8}, {
@@ -6486,7 +6146,7 @@ FQr5ZL8Bypfg2178SRHB91DzYj/57SOc7zJlpi7zFwTf4UT+7i2vEHyx0Oiv
 KW1cXvf2A5x/f1XZ5TvXEfx0XanSe8cQ/FsnmNd07UbwTZSbVKZsRvC/r2LN
 2boawe/XSVRKXYbgAwAv/bCF
          "]]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.020000000000000007`, 1.}}], 
        {LABColor[
         0.18872985739621356`, 0.522595989971734, -0.8570617843115016], 
@@ -6509,9 +6169,8 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -6519,7 +6178,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[
            10]], {{{-0.7188479598140359, 0.}}, {{-0.7188479598140359, 0.}}}]},
@@ -6535,7 +6194,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -6545,7 +6204,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
                    Circle[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{-0.7188479598140359, 
                0.}}, {{-0.7188479598140359, 0.}}}]}, 
@@ -6561,12 +6220,12 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -6585,12 +6244,12 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -6605,7 +6264,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -6615,7 +6274,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
                Circle[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{-0.7188479598140359, 0.}}, {{-0.7188479598140359, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -6630,12 +6289,12 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -6646,9 +6305,8 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -6656,7 +6314,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[10]], {{{
           0.7188479599212922, 0.}}, {{0.7188479599212922, 0.}}}]},
@@ -6672,7 +6330,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -6682,7 +6340,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
                    Disk[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{0.7188479599212922, 0.}}, {{
                0.7188479599212922, 0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -6697,12 +6355,12 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -6721,12 +6379,12 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -6741,7 +6399,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -6751,7 +6409,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
                Disk[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{0.7188479599212922, 0.}}, {{0.7188479599212922, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -6766,12 +6424,12 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -6782,9 +6440,8 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[{
@@ -6805,7 +6462,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[10]], {{{
           1.035946677773267, 0.}}, {{1.035946677773267, 0.}}}]},
@@ -6821,7 +6478,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -6837,7 +6494,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
                     Rational[-1, 2] Pi, Rational[1, 2] Pi}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{1.035946677773267, 0.}}, {{1.035946677773267, 
                0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -6852,12 +6509,12 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -6876,12 +6533,12 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -6896,7 +6553,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -6910,7 +6567,7 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
                Circle[{0, 0}, 1, {Rational[-1, 2] Pi, Rational[1, 2] Pi}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{1.035946677773267, 0.}}, {{1.035946677773267, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -6925,12 +6582,12 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -6982,9 +6639,8 @@ mr7kyh3Cb+DyB4vk7ymfQPAfLLkhYKLxFs4HAGWY19M=
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{{3.9405052404232826`*^9, 3.940505266091051*^9}, {
    3.940505382903343*^9, 3.940505477675598*^9}, 3.940505546308132*^9, 
-   3.94050716257176*^9},
- CellLabel->
-  "Out[837]=",ExpressionUUID->"6cd700e6-8ee3-3e4e-92f1-5e460fd35424"]
+   3.94050716257176*^9, 3.947483423685396*^9},
+ CellLabel->"Out[39]=",ExpressionUUID->"1dcbe77f-6a3b-e744-bb19-6b02f586e0db"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7039,8 +6695,7 @@ Cell[BoxData[
          RowBox[{"-", "1"}], ",", " ", "1.4"}], "}"}], ",", " ", 
        RowBox[{"{", 
         RowBox[{"y", ",", " ", 
-         RowBox[{"-", "0.05"}], ",", " ", "0.05"}], "}"}]}], "]"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+         RowBox[{"-", "0.05"}], ",", " ", "0.05"}], "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"p3", "=", " ", 
      RowBox[{"ListPlot", "[", 
@@ -7051,8 +6706,8 @@ Cell[BoxData[
           RowBox[{"x", "/.", 
            RowBox[{
             RowBox[{"sol", "[", "r", "]"}], "[", 
-            RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-       ",", " ", 
+            RowBox[{"[", "1", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+        " ", 
        RowBox[{"PlotMarkers", "->", 
         RowBox[{"{", 
          RowBox[{
@@ -7071,8 +6726,8 @@ Cell[BoxData[
           RowBox[{"x", "/.", 
            RowBox[{
             RowBox[{"sol", "[", "r", "]"}], "[", 
-            RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], 
-       ",", " ", 
+            RowBox[{"[", "2", "]"}], "]"}]}], ",", " ", "0"}], "}"}], "}"}], ",",
+        " ", 
        RowBox[{"PlotMarkers", "->", 
         RowBox[{"{", 
          RowBox[{
@@ -7080,23 +6735,21 @@ Cell[BoxData[
            RowBox[{"{", 
             RowBox[{"Red", ",", " ", 
              RowBox[{"Disk", "[", "]"}]}], "}"}], "]"}], ",", " ", "10"}], 
-         "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
-   "\[IndentingNewLine]", 
+         "}"}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{"Show", "[", 
     RowBox[{"p1", ",", " ", "p2", ",", " ", "p3", ",", " ", "p4"}], 
     "]"}]}]}]], "Input",
  CellChangeTimes->{{3.940505659217497*^9, 3.9405056712744923`*^9}, {
   3.940507293844963*^9, 3.940507303275772*^9}},
- CellLabel->
-  "In[904]:=",ExpressionUUID->"6621a69c-dcac-b946-afaa-5f8cb1a1d502"],
+ CellLabel->"In[40]:=",ExpressionUUID->"6621a69c-dcac-b946-afaa-5f8cb1a1d502"],
 
 Cell[BoxData[
  GraphicsBox[{
    InterpretationBox[{
      TagBox[{{{}, {}, 
         TagBox[
-         {RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[2], 
-          Opacity[1.], LineBox[CompressedData["
+         {RGBColor[0.24, 0.6, 0.8], AbsoluteThickness[2], Opacity[1.], 
+          LineBox[CompressedData["
 1:eJw12mVUVN/XAGAERSxaUJCSUBARRSUENoogIGUgqSghgkhJ/pQu6RYE6ZQG
 6ToMNTNId3eHRaiI8N75r/XyAdazLnefO+eefc7eaw2XgeV9Y3IyMjIp7Bfp
 r0P4k/5i6XVE9r+fKdRmfNO1dHQNcYU3pG76jiP/hfvz1Bqr6Adz7il12X7U
@@ -7323,7 +6976,7 @@ YxntNU/vn/KdgrxNqdeuv7WMgk0vXMwYnoGiLJHKN335/3v/B6dHJT8=
             Annotation[{
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               Line[CompressedData["
 1:eJw12mVUVN/XAGAERSxaUJCSUBARRSUENoogIGUgqSghgkhJ/pQu6RYE6ZQG
@@ -7551,12 +7204,12 @@ YxntNU/vn/KdgrxNqdeuv7WMgk0vXMwYnoGiLJHKN335/3v/B6dHJT8=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                Opacity[1.], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -7574,12 +7227,12 @@ YxntNU/vn/KdgrxNqdeuv7WMgk0vXMwYnoGiLJHKN335/3v/B6dHJT8=
            GoldenRatio^(-1), "DefaultStyle" -> {
              Directive[
               Opacity[1.], 
-              RGBColor[0.368417, 0.506779, 0.709798], 
+              RGBColor[0.24, 0.6, 0.8], 
               AbsoluteThickness[2]]}, 
            "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-               Identity[
+               (Identity[#]& )[
                 Part[#, 1]], 
-               Identity[
+               (Identity[#]& )[
                 Part[#, 2]]}& ), 
              "ScalingFunctions" -> {{Identity, Identity}, {
                Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -7594,7 +7247,7 @@ YxntNU/vn/KdgrxNqdeuv7WMgk0vXMwYnoGiLJHKN335/3v/B6dHJT8=
         Annotation[{
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           Line[CompressedData["
 1:eJw12mVUVN/XAGAERSxaUJCSUBARRSUENoogIGUgqSghgkhJ/pQu6RYE6ZQG
@@ -7821,19 +7474,19 @@ YxntNU/vn/KdgrxNqdeuv7WMgk0vXMwYnoGiLJHKN335/3v/B6dHJT8=
         "LabelStyle" -> {}, "AspectRatio" -> GoldenRatio^(-1), "DefaultStyle" -> {
           Directive[
            Opacity[1.], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]]}, 
         "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-            Identity[
+            (Identity[#]& )[
              Part[#, 1]], 
-            Identity[
+            (Identity[#]& )[
              Part[#, 2]]}& ), 
           "ScalingFunctions" -> {{Identity, Identity}, {
             Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
       "Meta" -> <|
        "DefaultHighlight" -> {"Dynamic", None}, "Index" -> {}, "Function" -> 
         Plot, "GroupHighlight" -> False|>|>, "DynamicHighlight"]], {{}, {
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.02, 1.}}], 
        {LABColor[0.1886675222501131, 0.5225961012766809, -0.8572107619122568],
          ArrowBox[{{-0.6684247167344137, -8.318431734671425*^-7}, \
@@ -7914,7 +7567,7 @@ YxntNU/vn/KdgrxNqdeuv7WMgk0vXMwYnoGiLJHKN335/3v/B6dHJT8=
          0.6520829579336967, -8.318431734671425*^-7}, {
          0.6618253598651844, -8.318431734671425*^-7}, {
          0.6645135121661154, -8.318431734671425*^-7}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.019999999999999997`, 1.}}], 
        {LABColor[0.6605861642612219, 0.5012108369207087, 0.7411097500485179], 
         ArrowBox[{{1.3424068914187304`, -1.8548793223141966`*^-8}, {
@@ -7972,7 +7625,7 @@ YxntNU/vn/KdgrxNqdeuv7WMgk0vXMwYnoGiLJHKN335/3v/B6dHJT8=
          0.6784091003223318, -1.854879322314197*^-8}, {
          0.6746577203189243, -1.854879322314197*^-8}, {
          0.6723808417653929, -1.854879322314197*^-8}}]}}}, 
-     {RGBColor[0.2947336, 0.4054232, 0.5678384000000001], 
+     {RGBColor[0.192, 0.48, 0.64], 
       {Arrowheads[{{0.019999999999999997`, 1.}}], 
        {LABColor[
         0.18869877341920888`, 0.5225960454749392, -0.8571360733218878], 
@@ -7997,9 +7650,8 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -8007,7 +7659,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[
            10]], {{{-0.668740304976422, 0.}}, {{-0.668740304976422, 0.}}}]},
@@ -8023,7 +7675,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -8033,7 +7685,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
                    Circle[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{-0.668740304976422, 
                0.}}, {{-0.668740304976422, 0.}}}]}, 
@@ -8049,12 +7701,12 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -8073,12 +7725,12 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -8093,7 +7745,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -8103,7 +7755,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
                Circle[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{-0.668740304976422, 0.}}, {{-0.668740304976422, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -8118,12 +7770,12 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -8134,9 +7786,8 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
     InterpretationBox[{
       TagBox[
        TagBox[
-        {RGBColor[0.368417, 0.506779, 0.709798], PointSize[
-         0.012833333333333334`], AbsoluteThickness[2], 
-         GeometricTransformationBox[InsetBox[
+        {RGBColor[0.24, 0.6, 0.8], PointSize[0.012833333333333334`], 
+         AbsoluteThickness[2], GeometricTransformationBox[InsetBox[
            FormBox[
             StyleBox[
              GraphicsBox[
@@ -8144,7 +7795,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
              StripOnInput->False,
              GraphicsBoxOptions->{DefaultBaseStyle->Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}],
             TraditionalForm], {0., 0.}, Automatic, Offset[10]], {{{
           0.6687403049782339, 0.}}, {{0.6687403049782339, 0.}}}]},
@@ -8160,7 +7811,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
             Annotation[{
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]], 
               GeometricTransformation[
                Inset[
@@ -8170,7 +7821,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
                    Disk[{0, 0}]}], 
                  GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                     PointSize[0.012833333333333334`], 
-                    RGBColor[0.368417, 0.506779, 0.709798], 
+                    RGBColor[0.24, 0.6, 0.8], 
                     AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
                 Offset[10]], {{{0.6687403049782339, 0.}}, {{
                0.6687403049782339, 0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -8185,12 +7836,12 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
              GoldenRatio^(-1), "DefaultStyle" -> {
                Directive[
                 PointSize[0.012833333333333334`], 
-                RGBColor[0.368417, 0.506779, 0.709798], 
+                RGBColor[0.24, 0.6, 0.8], 
                 AbsoluteThickness[2]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -8209,12 +7860,12 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
             GoldenRatio^(-1), "DefaultStyle" -> {
               Directive[
                PointSize[0.012833333333333334`], 
-               RGBColor[0.368417, 0.506779, 0.709798], 
+               RGBColor[0.24, 0.6, 0.8], 
                AbsoluteThickness[2]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -8229,7 +7880,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
         Annotation[{
           Directive[
            PointSize[0.012833333333333334`], 
-           RGBColor[0.368417, 0.506779, 0.709798], 
+           RGBColor[0.24, 0.6, 0.8], 
            AbsoluteThickness[2]], 
           GeometricTransformation[
            Inset[
@@ -8239,7 +7890,7 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
                Disk[{0, 0}]}], 
              GraphicsBoxOptions -> {DefaultBaseStyle -> Directive[
                  PointSize[0.012833333333333334`], 
-                 RGBColor[0.368417, 0.506779, 0.709798], 
+                 RGBColor[0.24, 0.6, 0.8], 
                  AbsoluteThickness[2]]}], {0., 0.}, Automatic, 
             Offset[10]], {{{0.6687403049782339, 0.}}, {{0.6687403049782339, 
            0.}}}]}, "Charting`Private`Tag#1"]}}, <|
@@ -8254,12 +7905,12 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
          "DefaultStyle" -> {
            Directive[
             PointSize[0.012833333333333334`], 
-            RGBColor[0.368417, 0.506779, 0.709798], 
+            RGBColor[0.24, 0.6, 0.8], 
             AbsoluteThickness[2]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -8309,9 +7960,9 @@ m9CU8ldwfvZFtrtmGq/hfCcRn5jPfQg+APZk7oA=
      Scaled[0.02], 
      Scaled[0.02]}, {0, 0}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{3.940505673668947*^9, 3.9405076564508247`*^9},
- CellLabel->
-  "Out[910]=",ExpressionUUID->"8499c25b-a82b-2349-bf65-0c5317e812f2"]
+ CellChangeTimes->{3.940505673668947*^9, 3.9405076564508247`*^9, 
+  3.9474834239200497`*^9},
+ CellLabel->"Out[46]=",ExpressionUUID->"9a9e14f3-996e-7a4c-8a87-e7b753885d69"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -8322,8 +7973,7 @@ Cell[BoxData[{
    RowBox[{"ClearAll", "[", "\"\<Global`*\>\"", "]"}], ";"}], "Code"], "\n", 
  StyleBox[
   RowBox[{
-   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], 
-  "Code"], "\[IndentingNewLine]", 
+   RowBox[{"Remove", "[", "\"\<Global`*\>\"", "]"}], ";"}], "Code"], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"f", "[", 
@@ -8343,10 +7993,9 @@ Cell[BoxData[{
            RowBox[{"(", 
             RowBox[{"1", "-", "x"}], ")"}]}], "]"}]}], ")"}]}], ")"}]}], "-", 
     RowBox[{"r", "*", 
-     RowBox[{"x", "^", "4"}]}]}]}], "\[IndentingNewLine]", 
-  "\[IndentingNewLine]", 
+     RowBox[{"x", "^", "4"}]}]}]}], "\[IndentingNewLine]", "\n", 
   RowBox[{"(*", 
-   RowBox[{"Range", " ", "for", " ", "r", " ", "values"}], "*)"}]}], "\n", 
+   RowBox[{"Range", " ", "for", " ", "r", " ", "values"}], "*)"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"rValues", "=", 
@@ -8354,7 +8003,7 @@ Cell[BoxData[{
      RowBox[{"Range", "[", 
       RowBox[{"0", ",", "1", ",", 
        RowBox[{"1", "/", "1000"}]}], "]"}], "]"}]}], ";"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"interval1Points", "=", 
@@ -8384,7 +8033,7 @@ Cell[BoxData[{
   RowBox[{"(*", 
    RowBox[{"(", 
     RowBox[{"1.04", ",", "\[Infinity]"}], ")"}], "*)"}], 
-  "\n"}], "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\n", 
  RowBox[{
   RowBox[{
    RowBox[{"Do", "[", 
@@ -8438,7 +8087,7 @@ Cell[BoxData[{
          RowBox[{"solution", ",", "solutions"}], "}"}]}], "]"}]}], ",", 
      RowBox[{"{", 
       RowBox[{"r", ",", "rValues"}], "}"}]}], "]"}], ";"}], 
-  "\[IndentingNewLine]", "\[IndentingNewLine]"}], "\n", 
+  "\[IndentingNewLine]", "\n"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"Show", "[", "\[IndentingNewLine]", 
    RowBox[{
@@ -8534,9 +8183,9 @@ Cell[BoxData[{
      RowBox[{"{", 
       RowBox[{"\"\<r\>\"", ",", "\"\<x\>\""}], "}"}]}], ",", 
     RowBox[{"PlotLabel", "->", "\"\<Bifurcation Diagram\>\""}]}], 
-   "\[IndentingNewLine]", "]"}], "\n", "\n", "\n", "\[IndentingNewLine]", 
-  "\n", "\n", "\n", "\n", "\[IndentingNewLine]", 
-  "\n"}], "\[IndentingNewLine]"}], "Input",
+   "\[IndentingNewLine]", "]"}], "\n", "\n", "\[IndentingNewLine]", "\n", 
+  "\n", "\n", "\n", "\[IndentingNewLine]", "\n", 
+  "\[IndentingNewLine]"}], "\n"}], "Input",
  CellChangeTimes->{{3.940507628076126*^9, 3.940507650303438*^9}, {
    3.940507724252556*^9, 3.940507766134037*^9}, 3.9405937845923157`*^9, {
    3.940593838625059*^9, 3.9405939343830166`*^9}, {3.940594021803974*^9, 
@@ -8568,9 +8217,8 @@ Cell[BoxData[{
    3.9410937994451485`*^9}, {3.941104050758415*^9, 3.941104052637146*^9}, {
    3.9412594527265625`*^9, 3.941259499728855*^9}, {3.941463770062483*^9, 
    3.9414637702828712`*^9}, {3.94146383525572*^9, 3.9414638387018967`*^9}, {
-   3.941463936613123*^9, 
-   3.941463966248146*^9}},ExpressionUUID->"bba11ab0-59c4-974e-a4d3-\
-641a7b329341"],
+   3.941463936613123*^9, 3.941463966248146*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"bba11ab0-59c4-974e-a4d3-641a7b329341"],
 
 Cell[BoxData[
  GraphicsBox[{{{}, 
@@ -9081,9 +8729,9 @@ W11Z8ly3f7/DB7V2YclzFb7Zr+BermfJczU2HdrUZoEzy/wfRdOO3g==
                 RGBColor[1, 0, 0], 
                 Dashing[{Small, Small}]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -9105,9 +8753,9 @@ W11Z8ly3f7/DB7V2YclzFb7Zr+BermfJczU2HdrUZoEzy/wfRdOO3g==
                RGBColor[1, 0, 0], 
                Dashing[{Small, Small}]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -9376,9 +9024,9 @@ W11Z8ly3f7/DB7V2YclzFb7Zr+BermfJczU2HdrUZoEzy/wfRdOO3g==
             RGBColor[1, 0, 0], 
             Dashing[{Small, Small}]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -9780,9 +9428,9 @@ Wq56mR9DnhuQNeyFvaUvQ54bELp3JntzAUOef4ZD/OJGHvMZ/B/GDuDj
                 AbsoluteThickness[2], 
                 RGBColor[1, 0, 0]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -9803,9 +9451,9 @@ Wq56mR9DnhuQNeyFvaUvQ54bELp3JntzAUOef4ZD/OJGHvMZ/B/GDuDj
                AbsoluteThickness[2], 
                RGBColor[1, 0, 0]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -10017,9 +9665,9 @@ Wq56mR9DnhuQNeyFvaUvQ54bELp3JntzAUOef4ZD/OJGHvMZ/B/GDuDj
             AbsoluteThickness[2], 
             RGBColor[1, 0, 0]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -10304,9 +9952,9 @@ DRyWxwz3jPp/ru79yWV0EvNfg8MpzldXRv8/N/woKXRN4PA/OSqdfg==
                 RGBColor[1, 0, 0], 
                 Dashing[{Small, Small}]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -10328,9 +9976,9 @@ DRyWxwz3jPp/ru79yWV0EvNfg8MpzldXRv8/N/woKXRN4PA/OSqdfg==
                RGBColor[1, 0, 0], 
                Dashing[{Small, Small}]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -10484,9 +10132,9 @@ DRyWxwz3jPp/ru79yWV0EvNfg8MpzldXRv8/N/woKXRN4PA/OSqdfg==
             RGBColor[1, 0, 0], 
             Dashing[{Small, Small}]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -10868,9 +10516,9 @@ l1l2JUhOnlcgce0m6wPP5eR5BWp/uZ8xCZTj/w+pZUo=
                 AbsoluteThickness[2], 
                 RGBColor[1, 0, 0]]}, 
              "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 1]], 
-                 Identity[
+                 (Identity[#]& )[
                   Part[#, 2]]}& ), 
                "ScalingFunctions" -> {{Identity, Identity}, {
                  Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -10891,9 +10539,9 @@ l1l2JUhOnlcgce0m6wPP5eR5BWp/uZ8xCZTj/w+pZUo=
                AbsoluteThickness[2], 
                RGBColor[1, 0, 0]]}, 
             "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-                Identity[
+                (Identity[#]& )[
                  Part[#, 1]], 
-                Identity[
+                (Identity[#]& )[
                  Part[#, 2]]}& ), 
               "ScalingFunctions" -> {{Identity, Identity}, {
                 Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> 
@@ -11095,9 +10743,9 @@ l1l2JUhOnlcgce0m6wPP5eR5BWp/uZ8xCZTj/w+pZUo=
             AbsoluteThickness[2], 
             RGBColor[1, 0, 0]]}, 
          "HighlightLabelingFunctions" -> <|"CoordinatesToolOptions" -> ({
-             Identity[
+             (Identity[#]& )[
               Part[#, 1]], 
-             Identity[
+             (Identity[#]& )[
               Part[#, 2]]}& ), 
            "ScalingFunctions" -> {{Identity, Identity}, {
              Identity, Identity}}|>, "Primitives" -> {}, "GCFlag" -> False|>, 
@@ -11120,78 +10768,7 @@ l1l2JUhOnlcgce0m6wPP5eR5BWp/uZ8xCZTj/w+pZUo=
        FrontFaceColor->GrayLevel[0],
        BackFaceColor->GrayLevel[0],
        GraphicsColor->GrayLevel[0],
-       FontColor->GrayLevel[0]], {0.2, 0.4}]}}, InsetBox[
-    TagBox[GridBox[{
-       {
-        StyleBox[
-         RowBox[{"Line", "[", 
-          RowBox[{"(", "\[NoBreak]", GridBox[{
-             {"0", "0"},
-             {"1", "0"}
-            },
-            
-            GridBoxAlignment->{
-             "Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
-            GridBoxSpacings->{"Columns" -> {
-                Offset[0.27999999999999997`], {
-                 Offset[0.7]}, 
-                Offset[0.27999999999999997`]}, "Rows" -> {
-                Offset[0.2], {
-                 Offset[0.4]}, 
-                Offset[0.2]}}], "\[NoBreak]", ")"}], "]"}],
-         StripOnInput->False,
-         LineColor->RGBColor[1, 0, 0],
-         FrontFaceColor->RGBColor[1, 0, 0],
-         BackFaceColor->RGBColor[1, 0, 0],
-         GraphicsColor->RGBColor[1, 0, 0],
-         Thickness->Large,
-         FontColor->RGBColor[1, 0, 0]], 
-        StyleBox["\<\"Stable\"\>",
-         StripOnInput->False,
-         LineColor->GrayLevel[0],
-         FrontFaceColor->GrayLevel[0],
-         BackFaceColor->GrayLevel[0],
-         GraphicsColor->GrayLevel[0],
-         FontColor->GrayLevel[0]]},
-       {
-        StyleBox[
-         RowBox[{"Line", "[", 
-          RowBox[{
-           RowBox[{"(", "\[NoBreak]", GridBox[{
-              {"0", "0"},
-              {"1", "0"}
-             },
-             
-             GridBoxAlignment->{
-              "Columns" -> {{Center}}, "Rows" -> {{Baseline}}},
-             GridBoxSpacings->{"Columns" -> {
-                 Offset[0.27999999999999997`], {
-                  Offset[0.7]}, 
-                 Offset[0.27999999999999997`]}, "Rows" -> {
-                 Offset[0.2], {
-                  Offset[0.4]}, 
-                 Offset[0.2]}}], "\[NoBreak]", ")"}], ",", 
-           RowBox[{"Dashing", "[", 
-            RowBox[{"{", 
-             RowBox[{"Small", ",", "Small"}], "}"}], "]"}]}], "]"}],
-         StripOnInput->False,
-         LineColor->RGBColor[1, 0, 0],
-         FrontFaceColor->RGBColor[1, 0, 0],
-         BackFaceColor->RGBColor[1, 0, 0],
-         GraphicsColor->RGBColor[1, 0, 0],
-         Thickness->Large,
-         FontColor->RGBColor[1, 0, 0]], 
-        StyleBox["\<\"Unstable\"\>",
-         StripOnInput->False,
-         LineColor->GrayLevel[0],
-         FrontFaceColor->GrayLevel[0],
-         BackFaceColor->GrayLevel[0],
-         GraphicsColor->GrayLevel[0],
-         FontColor->GrayLevel[0]]}
-      },
-      AutoDelete->False,
-      GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
-     "Grid"], {0.8, -1.7}, {Right, Bottom}]},
+       FontColor->GrayLevel[0]], {0.2, 0.4}]}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{
@@ -11216,34 +10793,34 @@ l1l2JUhOnlcgce0m6wPP5eR5BWp/uZ8xCZTj/w+pZUo=
           "placement" -> {"x" -> "All", "y" -> "None"}}}}, "DefaultMeshStyle" -> 
     AbsolutePointSize[6], "DefaultPlotStyle" -> {
       Directive[
-       RGBColor[0.368417, 0.506779, 0.709798], 
+       RGBColor[0.24, 0.6, 0.8], 
        AbsoluteThickness[2]], 
       Directive[
-       RGBColor[0.880722, 0.611041, 0.142051], 
+       RGBColor[0.95, 0.627, 0.1425], 
        AbsoluteThickness[2]], 
       Directive[
-       RGBColor[0.560181, 0.691569, 0.194885], 
+       RGBColor[0.455, 0.7, 0.21], 
        AbsoluteThickness[2]], 
       Directive[
        RGBColor[0.922526, 0.385626, 0.209179], 
        AbsoluteThickness[2]], 
       Directive[
-       RGBColor[0.528488, 0.470624, 0.701351], 
+       RGBColor[0.578, 0.51, 0.85], 
        AbsoluteThickness[2]], 
       Directive[
        RGBColor[0.772079, 0.431554, 0.102387], 
        AbsoluteThickness[2]], 
       Directive[
-       RGBColor[0.363898, 0.618501, 0.782349], 
+       RGBColor[0.4, 0.64, 1.], 
        AbsoluteThickness[2]], 
       Directive[
-       RGBColor[1, 0.75, 0], 
+       RGBColor[1., 0.75, 0.], 
        AbsoluteThickness[2]], 
       Directive[
-       RGBColor[0.647624, 0.37816, 0.614037], 
+       RGBColor[0.8, 0.4, 0.76], 
        AbsoluteThickness[2]], 
       Directive[
-       RGBColor[0.571589, 0.586483, 0.], 
+       RGBColor[0.637, 0.65, 0.], 
        AbsoluteThickness[2]], 
       Directive[
        RGBColor[0.915, 0.3325, 0.2125], 
@@ -11264,13 +10841,13 @@ l1l2JUhOnlcgce0m6wPP5eR5BWp/uZ8xCZTj/w+pZUo=
     "OptimizePlotMarkers" -> True, "IncludeHighlighting" -> "CurrentSet", 
     "HighlightStyle" -> Automatic, "OptimizePlotMarkers" -> True, 
     "CoordinatesToolOptions" -> {"DisplayFunction" -> ({
-        Identity[
+        (Identity[#]& )[
          Part[#, 1]], 
-        Identity[
+        (Identity[#]& )[
          Part[#, 2]]}& ), "CopiedValueFunction" -> ({
-        Identity[
+        (Identity[#]& )[
          Part[#, 1]], 
-        Identity[
+        (Identity[#]& )[
          Part[#, 2]]}& )}},
   PlotLabel->FormBox["\"Bifurcation Diagram\"", TraditionalForm],
   PlotRange->{{0., 1.}, {-2., 2.}},
@@ -11292,14 +10869,15 @@ l1l2JUhOnlcgce0m6wPP5eR5BWp/uZ8xCZTj/w+pZUo=
    3.94063869825473*^9, 3.9406387952372837`*^9, 3.940638861619755*^9, {
    3.9406388936257954`*^9, 3.940638923349041*^9}, {3.9410938664981956`*^9, 
    3.9410938804551945`*^9}, {3.9412595198739796`*^9, 3.941259539871786*^9}, {
-   3.941463861133793*^9, 3.94146390938846*^9}, 3.9414639535724545`*^9},
- CellLabel->"Out[50]=",ExpressionUUID->"84240fa9-008d-5348-9837-06620e9023f8"]
+   3.941463861133793*^9, 3.94146390938846*^9}, 3.9414639535724545`*^9, 
+   3.947483457716379*^9},
+ CellLabel->"Out[56]=",ExpressionUUID->"dc0f1c5d-879d-1647-9b41-30508790ced5"]
 }, Open  ]]
 },
-WindowSize->{949, 466.5},
-WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowSize->{1080, 643.5},
+WindowMargins->{{-4.875, Automatic}, {Automatic, -4.875}},
 Magnification:>0.9 Inherited,
-FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
+FrontEndVersion->"14.2 for Microsoft Windows (64-bit) (December 26, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"2cff797e-ca58-424c-837f-537f6649256e"
 ]
@@ -11315,61 +10893,40 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[576, 22, 6441, 142, 213, "Input",ExpressionUUID->"4b7e8e77-9b29-c646-bf56-d9a8b6affd89"],
-Cell[7020, 166, 2172, 35, 47, "Output",ExpressionUUID->"36f55318-bc78-da4e-8c4d-22512cef8537"],
-Cell[9195, 203, 1946, 27, 28, "Output",ExpressionUUID->"91e991d6-a908-c34e-a5dd-ad7d5a278fcd"],
-Cell[11144, 232, 3975, 68, 162, "Output",ExpressionUUID->"1a19e54f-e5d6-ce4a-bd6c-a71607e14382"],
-Cell[15122, 302, 327, 7, 23, "Message",ExpressionUUID->"bada3820-1900-7d43-bb65-cd912394c209"],
-Cell[15452, 311, 720, 12, 23, "Message",ExpressionUUID->"aded3bcd-8f68-9143-ba35-1520c1c87e6d"],
-Cell[16175, 325, 425, 8, 23, "Message",ExpressionUUID->"316200d2-ea32-2449-b173-8bd9b967dac1"],
-Cell[16603, 335, 799, 14, 23, "Message",ExpressionUUID->"246e020b-04b3-6747-94b3-875885c96a25"],
-Cell[17405, 351, 420, 8, 23, "Message",ExpressionUUID->"edf2131f-b43f-b94e-bcfa-9765b3acec77"],
-Cell[17828, 361, 983, 16, 23, "Message",ExpressionUUID->"c7dd2c79-e13e-9549-8a8c-622f48451119"],
-Cell[18814, 379, 2724, 42, 72, "Message",ExpressionUUID->"9a44a846-9db9-6a42-9a47-50469393c0ce"],
-Cell[21541, 423, 2724, 42, 72, "Message",ExpressionUUID->"3103ac17-5763-d74c-9612-1c2b64f4ebcb"],
-Cell[24268, 467, 267, 7, 33, "Message",ExpressionUUID->"23851ae0-23a0-b94a-ba83-7435e1299b5f"],
-Cell[24538, 476, 357, 9, 59, "Message",ExpressionUUID->"e2334d4e-dcf9-284c-a925-940bfb21bcfe"],
-Cell[24898, 487, 318, 8, 46, "Message",ExpressionUUID->"9f5cf163-f43c-d543-924d-59e52c770a54"],
-Cell[25219, 497, 395, 9, 59, "Message",ExpressionUUID->"181f5960-651f-9649-9bf3-6a1c1ff16dfc"],
-Cell[25617, 508, 278, 7, 33, "Message",ExpressionUUID->"1b48f358-d409-a244-aa11-cb7220764dd9"],
-Cell[25898, 517, 386, 8, 46, "Message",ExpressionUUID->"bc75fb13-4410-5c4c-8be5-82d487006a45"],
-Cell[26287, 527, 375, 9, 59, "Message",ExpressionUUID->"ac72a890-b5cc-8948-9c59-2be77b08fb38"],
-Cell[26665, 538, 375, 9, 59, "Message",ExpressionUUID->"d0e7c413-3317-ed4d-96c4-2684644bfb0d"],
-Cell[27043, 549, 265, 7, 33, "Message",ExpressionUUID->"fa212f42-12ca-0449-ad00-edf7c564f6f6"],
-Cell[27311, 558, 357, 9, 59, "Message",ExpressionUUID->"0ab9d728-7831-db49-b6db-435bfd077a46"],
-Cell[27671, 569, 318, 8, 46, "Message",ExpressionUUID->"21ea9bed-94fc-184b-a0fd-1bfbcd995b38"],
-Cell[27992, 579, 394, 9, 59, "Message",ExpressionUUID->"63bee5c2-a98a-cd4f-99e1-711dd52f29e4"],
-Cell[28389, 590, 277, 7, 33, "Message",ExpressionUUID->"94476543-a188-bd4c-941f-495e90bf7d99"],
-Cell[28669, 599, 386, 8, 46, "Message",ExpressionUUID->"6f89e71e-448c-714b-91a8-0de75b736bc9"],
-Cell[29058, 609, 376, 9, 59, "Message",ExpressionUUID->"3295a1bf-b28c-ec4d-bdc6-1084f9f1b518"],
-Cell[29437, 620, 376, 9, 59, "Message",ExpressionUUID->"e30c034e-a32f-d349-9318-2059bc13596c"]
-}, Open  ]],
-Cell[29828, 632, 242, 6, 25, "Input",ExpressionUUID->"72a74ef2-515d-f741-adbc-1383885376f7"],
-Cell[CellGroupData[{
-Cell[30095, 642, 4489, 112, 179, "Input",ExpressionUUID->"a80038dc-3bc7-bf42-8cf6-975d8fb3e8eb"],
-Cell[34587, 756, 71833, 1298, 224, "Output",ExpressionUUID->"ebd79df2-01f2-a342-8438-3c4777c47d1f"],
-Cell[106423, 2056, 412, 11, 23, "Message",ExpressionUUID->"7e9b32be-d9ed-e84f-8e98-f21163aa520a"],
-Cell[106838, 2069, 200, 4, 28, "Output",ExpressionUUID->"30751365-2fa0-ad46-861c-bd5d151bac4d"]
+Cell[576, 22, 6447, 138, 213, "Input",ExpressionUUID->"4b7e8e77-9b29-c646-bf56-d9a8b6affd89"],
+Cell[7026, 162, 2223, 36, 47, "Output",ExpressionUUID->"dccef56f-2fbb-524a-aa46-66ef9fd3b71a"],
+Cell[9252, 200, 1999, 28, 28, "Output",ExpressionUUID->"04edcc1d-b790-e645-bc07-950d5866e4fd"],
+Cell[11254, 230, 4044, 70, 303, "Output",ExpressionUUID->"ebcadfed-3500-7b41-ab0b-c3ef128fad16"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[107075, 2078, 5005, 143, 196, "Input",ExpressionUUID->"22f94aeb-d901-394d-b61b-a21197bc7dc3"],
-Cell[112083, 2223, 76784, 1420, 224, "Output",ExpressionUUID->"a280fa27-56ef-554d-9359-aaec61260749"]
+Cell[15335, 305, 260, 5, 25, "Input",ExpressionUUID->"72a74ef2-515d-f741-adbc-1383885376f7"],
+Cell[15598, 312, 233, 5, 28, "Output",ExpressionUUID->"6c9949d7-2de9-6f48-bca2-385155442c47"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[188904, 3648, 4341, 134, 162, "Input",ExpressionUUID->"6f8033fd-6885-254e-b65b-74d23ec074a3"],
-Cell[193248, 3784, 85875, 1589, 222, "Output",ExpressionUUID->"5616132d-0b12-6344-af2d-a10d413c00ed"]
+Cell[15868, 322, 4480, 110, 179, "Input",ExpressionUUID->"a80038dc-3bc7-bf42-8cf6-975d8fb3e8eb"],
+Cell[20351, 434, 71567, 1295, 224, "Output",ExpressionUUID->"bbedbb90-4495-f648-be85-baa10d844801"],
+Cell[91921, 1731, 412, 11, 23, "Message",ExpressionUUID->"7e9b32be-d9ed-e84f-8e98-f21163aa520a"],
+Cell[92336, 1744, 200, 4, 28, "Output",ExpressionUUID->"30751365-2fa0-ad46-861c-bd5d151bac4d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[279160, 5378, 6154, 166, 248, "Input",ExpressionUUID->"5521cb38-14f6-2349-a88b-3ae224c3bbb2"],
-Cell[285317, 5546, 78307, 1440, 222, "Output",ExpressionUUID->"6cd700e6-8ee3-3e4e-92f1-5e460fd35424"]
+Cell[92573, 1753, 4998, 141, 179, "Input",ExpressionUUID->"22f94aeb-d901-394d-b61b-a21197bc7dc3"],
+Cell[97574, 1896, 76390, 1417, 224, "Output",ExpressionUUID->"ca6318b9-cff9-964a-bf83-483606ca1c58"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[363661, 6991, 3439, 99, 162, "Input",ExpressionUUID->"6621a69c-dcac-b946-afaa-5f8cb1a1d502"],
-Cell[367103, 7092, 67130, 1221, 222, "Output",ExpressionUUID->"8499c25b-a82b-2349-bf65-0c5317e812f2"]
+Cell[174001, 3318, 4334, 132, 162, "Input",ExpressionUUID->"6f8033fd-6885-254e-b65b-74d23ec074a3"],
+Cell[178338, 3452, 85366, 1585, 222, "Output",ExpressionUUID->"596032b3-d7ba-974d-ba4f-e887b303f31b"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[434270, 8318, 10039, 254, 727, "Input",ExpressionUUID->"bba11ab0-59c4-974e-a4d3-641a7b329341"],
-Cell[444312, 8574, 155340, 2721, 233, "Output",ExpressionUUID->"84240fa9-008d-5348-9837-06620e9023f8"]
+Cell[263741, 5042, 6156, 162, 230, "Input",ExpressionUUID->"5521cb38-14f6-2349-a88b-3ae224c3bbb2"],
+Cell[269900, 5206, 77909, 1436, 222, "Output",ExpressionUUID->"1dcbe77f-6a3b-e744-bb19-6b02f586e0db"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[347846, 6647, 3427, 96, 162, "Input",ExpressionUUID->"6621a69c-dcac-b946-afaa-5f8cb1a1d502"],
+Cell[351276, 6745, 66854, 1219, 222, "Output",ExpressionUUID->"9a9e14f3-996e-7a4c-8a87-e7b753885d69"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[418167, 7969, 10051, 251, 727, "Input",ExpressionUUID->"bba11ab0-59c4-974e-a4d3-641a7b329341"],
+Cell[428221, 8222, 152928, 2651, 233, "Output",ExpressionUUID->"dc0f1c5d-879d-1647-9b41-30508790ced5"]
 }, Open  ]]
 }
 ]
